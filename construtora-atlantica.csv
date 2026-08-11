@@ -1,0 +1,353 @@
+Data,Obra,Etapa,Fornecedor,Tipo,Descrição,Valor,Orçado,Status
+03/09/2025,Residencial Vista Mar,Fundação,Concreteira Baía Sul,Material,Concreto usinado 25MPa,"26580,00","26710,00",Pago
+07/09/2025,Residencial Vista Mar,Fundação,Administração local,Indireto,Administração local do canteiro,"7370,00","6370,00",Pago
+07/09/2025,Edifício Solar de Camburi,Fundação,Locadora Serra Máquinas,Equipamento,Locação de bate-estacas,"24530,00","20820,00",Pago
+09/09/2025,Residencial Vista Mar,Fundação,Equipe própria,Mão de obra,Equipe de armadores,"37660,00","26700,00",Pago
+10/09/2025,Edifício Solar de Camburi,Fundação,Aços Capixaba,Material,Aço para armação de sapatas,"21140,00","19500,00",Pago
+17/09/2025,Edifício Solar de Camburi,Fundação,Administração local,Indireto,Administração local do canteiro,"6020,00","6220,00",Pago
+19/09/2025,Residencial Vista Mar,Fundação,Fundações Serra,Subempreiteiro,Estaqueamento hélice contínua,"41420,00","31190,00",Pago
+20/09/2025,Residencial Vista Mar,Fundação,Fundações Serra,Subempreiteiro,Estaqueamento hélice contínua,"23690,00","23560,00",Pago
+22/09/2025,Residencial Vista Mar,Fundação,Equipe própria,Mão de obra,Equipe de armadores,"26880,00","26870,00",Pago
+23/09/2025,Edifício Solar de Camburi,Fundação,Equipe própria,Mão de obra,Equipe de armadores,"35410,00","35240,00",Pago
+24/09/2025,Edifício Solar de Camburi,Fundação,EDP Espírito Santo,Indireto,Energia do canteiro,"3350,00","3660,00",Pago
+28/09/2025,Residencial Vista Mar,Fundação,EDP Espírito Santo,Indireto,Energia do canteiro,"5280,00","5230,00",Pago
+01/10/2025,Residencial Vista Mar,Fundação,Equipe própria,Mão de obra,Equipe de escavação,"33590,00","23070,00",Pago
+01/10/2025,Residencial Vista Mar,Estrutura,Estruturas Camburi,Subempreiteiro,Serviço de concretagem de laje,"38850,00","32680,00",Pago
+03/10/2025,Residencial Vista Mar,Fundação,Empreita Souza & Filhos,Mão de obra,Equipe de fôrma,"19050,00","18020,00",Pago
+04/10/2025,Edifício Solar de Camburi,Fundação,Administração local,Indireto,Administração local do canteiro,"4150,00","4020,00",Pago
+05/10/2025,Edifício Solar de Camburi,Estrutura,Equipe própria,Mão de obra,Equipe de concretagem,"25130,00","25640,00",Pago
+06/10/2025,Edifício Solar de Camburi,Fundação,Fundações Serra,Subempreiteiro,Estaqueamento hélice contínua,"45520,00","40360,00",Pago
+08/10/2025,Residencial Vista Mar,Fundação,Aços Capixaba,Material,Aço para armação de sapatas,"34370,00","31950,00",Pago
+09/10/2025,Residencial Vista Mar,Estrutura,Aços Capixaba,Material,Aço CA-50 vergalhão,"42860,00","34430,00",Pago
+10/10/2025,Edifício Solar de Camburi,Estrutura,Equipe própria,Mão de obra,Equipe de concretagem,"14080,00","14320,00",Pago
+13/10/2025,Residencial Vista Mar,Estrutura,Madeireira Santa Rita,Material,Chapa compensada para fôrma,"24800,00","19780,00",Pago
+15/10/2025,Residencial Vista Mar,Fundação,Empreita Souza & Filhos,Mão de obra,Equipe de fôrma,"23560,00","17540,00",Pago
+15/10/2025,Residencial Vista Mar,Estrutura,Cerâmica Colatina,Material,Laje treliçada,"45720,00","31810,00",Pago
+17/10/2025,Residencial Vista Mar,Fundação,Fundações Serra,Subempreiteiro,Estaqueamento hélice contínua,"29900,00","24300,00",Pago
+17/10/2025,Residencial Vista Mar,Fundação,Concreteira Baía Sul,Material,Brita e areia lavada,"36520,00","30100,00",Pago
+17/10/2025,Edifício Solar de Camburi,Estrutura,Equipe própria,Mão de obra,Equipe de concretagem,"34180,00","32670,00",Pago
+18/10/2025,Residencial Vista Mar,Fundação,Administração local,Indireto,Administração local do canteiro,"8100,00","7020,00",Pago
+18/10/2025,Edifício Solar de Camburi,Fundação,Concreteira Baía Sul,Material,Brita e areia lavada,"14170,00","17060,00",Pago
+19/10/2025,Residencial Vista Mar,Fundação,EDP Espírito Santo,Indireto,Energia do canteiro,"7210,00","6210,00",Pago
+19/10/2025,Edifício Solar de Camburi,Estrutura,Aços Capixaba,Material,Aço CA-50 vergalhão,"31660,00","32120,00",Pago
+20/10/2025,Edifício Solar de Camburi,Estrutura,Aços Capixaba,Material,Aço CA-50 vergalhão,"23270,00","20360,00",Pago
+21/10/2025,Edifício Solar de Camburi,Fundação,Concreteira Baía Sul,Material,Brita e areia lavada,"22280,00","24940,00",Pago
+23/10/2025,Residencial Vista Mar,Estrutura,Aços Capixaba,Material,Aço CA-50 vergalhão,"20830,00","19070,00",Pago
+24/10/2025,Residencial Vista Mar,Fundação,Depósito Praia Grande,Material,Manta asfáltica de baldrame,"27130,00","25430,00",Pago
+25/10/2025,Residencial Vista Mar,Estrutura,Concreteira Baía Sul,Material,Concreto usinado 30MPa,"26580,00","19070,00",Pago
+26/10/2025,Edifício Solar de Camburi,Fundação,EDP Espírito Santo,Indireto,Energia do canteiro,"4420,00","4340,00",Pago
+27/10/2025,Edifício Solar de Camburi,Fundação,Equipe própria,Mão de obra,Equipe de escavação,"17230,00","18420,00",Pago
+29/10/2025,Edifício Solar de Camburi,Fundação,Depósito Praia Grande,Material,Manta asfáltica de baldrame,"22600,00","23980,00",Pago
+29/10/2025,Edifício Solar de Camburi,Estrutura,Madeireira Santa Rita,Material,Chapa compensada para fôrma,"27950,00","28120,00",Pago
+01/11/2025,Residencial Vista Mar,Estrutura,Cerâmica Colatina,Material,Laje treliçada,"43020,00","36330,00",Pago
+01/11/2025,Residencial Vista Mar,Estrutura,Equipe própria,Mão de obra,Equipe de armadores,"42210,00","28840,00",Pago
+02/11/2025,Residencial Vista Mar,Estrutura,Aços Capixaba,Material,Aço CA-50 vergalhão,"37620,00","36120,00",Pago
+02/11/2025,Edifício Solar de Camburi,Estrutura,Concreteira Baía Sul,Material,Concreto usinado 30MPa,"21860,00","21680,00",Pago
+03/11/2025,Edifício Solar de Camburi,Estrutura,Equipe própria,Mão de obra,Equipe de concretagem,"13780,00","15670,00",Pago
+05/11/2025,Edifício Solar de Camburi,Estrutura,Aços Capixaba,Material,Aço CA-50 vergalhão,"31240,00","31140,00",Pago
+07/11/2025,Residencial Vista Mar,Estrutura,Cesan,Indireto,Água do canteiro,"3470,00","2980,00",Pago
+09/11/2025,Edifício Solar de Camburi,Estrutura,Empreita Souza & Filhos,Mão de obra,Equipe de carpintaria,"26570,00","28520,00",Pago
+09/11/2025,Galpão Logístico Serra,Fundação,EDP Espírito Santo,Indireto,Energia do canteiro,"4940,00","5500,00",Pago
+10/11/2025,Galpão Logístico Serra,Fundação,Depósito Praia Grande,Material,Manta asfáltica de baldrame,"20950,00","24280,00",Pago
+16/11/2025,Residencial Vista Mar,Estrutura,Empreita Souza & Filhos,Mão de obra,Equipe de carpintaria,"27580,00","19680,00",Pago
+17/11/2025,Residencial Vista Mar,Estrutura,Cerâmica Colatina,Material,Laje treliçada,"22190,00","14840,00",Pago
+17/11/2025,Residencial Vista Mar,Estrutura,Administração local,Indireto,Administração local do canteiro,"4780,00","4120,00",Pago
+17/11/2025,Galpão Logístico Serra,Fundação,Administração local,Indireto,Administração local do canteiro,"5910,00","6130,00",Pago
+20/11/2025,Residencial Vista Mar,Estrutura,Vigilância Litoral,Indireto,Vigilância noturna,"4240,00","3850,00",Pago
+21/11/2025,Edifício Solar de Camburi,Estrutura,Concreteira Baía Sul,Material,Concreto usinado 30MPa,"19380,00","16260,00",Pago
+21/11/2025,Galpão Logístico Serra,Estrutura,Madeireira Santa Rita,Material,Chapa compensada para fôrma,"24220,00","29290,00",Pago
+22/11/2025,Residencial Vista Mar,Estrutura,Concreteira Baía Sul,Material,Concreto usinado 30MPa,"46270,00","32450,00",Pago
+23/11/2025,Residencial Vista Mar,Estrutura,Empreita Souza & Filhos,Mão de obra,Equipe de carpintaria,"46420,00","32970,00",Pago
+23/11/2025,Galpão Logístico Serra,Estrutura,Madeireira Santa Rita,Material,Chapa compensada para fôrma,"17150,00","19210,00",Pago
+25/11/2025,Edifício Solar de Camburi,Estrutura,Concreteira Baía Sul,Material,Concreto usinado 30MPa,"27640,00","27820,00",Pago
+28/11/2025,Edifício Solar de Camburi,Estrutura,Cesan,Indireto,Água do canteiro,"4380,00","4020,00",Pago
+29/11/2025,Edifício Solar de Camburi,Estrutura,Administração local,Indireto,Administração local do canteiro,"4310,00","4230,00",Pago
+30/11/2025,Edifício Solar de Camburi,Estrutura,Vigilância Litoral,Indireto,Vigilância noturna,"3210,00","3540,00",Pago
+01/12/2025,Residencial Vista Mar,Estrutura,Aços Capixaba,Material,Aço CA-50 vergalhão,"16890,00","14700,00",Pago
+02/12/2025,Edifício Solar de Camburi,Alvenaria,Depósito Praia Grande,Material,Cal hidratada e areia,"31970,00","33700,00",Pago
+03/12/2025,Edifício Solar de Camburi,Estrutura,Cesan,Indireto,Água do canteiro,"2890,00","2660,00",Pago
+04/12/2025,Residencial Vista Mar,Estrutura,Cesan,Indireto,Água do canteiro,"4590,00","4660,00",Pago
+04/12/2025,Edifício Solar de Camburi,Estrutura,Estruturas Camburi,Subempreiteiro,Empreitada de estrutura,"21110,00","17610,00",Pago
+04/12/2025,Galpão Logístico Serra,Fundação,Fundações Serra,Subempreiteiro,Estaqueamento hélice contínua,"19410,00","19470,00",Pago
+04/12/2025,Galpão Logístico Serra,Estrutura,Empreita Souza & Filhos,Mão de obra,Equipe de carpintaria,"13200,00","16220,00",Pago
+05/12/2025,Residencial Vista Mar,Estrutura,Concreteira Baía Sul,Material,Concreto usinado 30MPa,"28430,00","24260,00",Pago
+05/12/2025,Edifício Solar de Camburi,Estrutura,Estruturas Camburi,Subempreiteiro,Serviço de concretagem de laje,"21320,00","22300,00",Pago
+06/12/2025,Edifício Solar de Camburi,Estrutura,JR Mão de Obra,Mão de obra,Equipe de armadores,"28820,00","25480,00",Pago
+07/12/2025,Residencial Vista Mar,Estrutura,Madeireira Santa Rita,Material,Chapa compensada para fôrma,"27320,00","24020,00",Pago
+07/12/2025,Residencial Vista Mar,Alvenaria,Depósito Praia Grande,Material,Argamassa de assentamento,"25170,00","17500,00",Pago
+07/12/2025,Galpão Logístico Serra,Estrutura,Administração local,Indireto,Administração local do canteiro,"3420,00","3970,00",Pago
+08/12/2025,Edifício Solar de Camburi,Estrutura,JR Mão de Obra,Mão de obra,Equipe de armadores,"38590,00","36710,00",Pago
+08/12/2025,Galpão Logístico Serra,Estrutura,Cerâmica Colatina,Material,Laje treliçada,"28560,00","26020,00",Pago
+09/12/2025,Residencial Vista Mar,Estrutura,Equipe própria,Mão de obra,Equipe de armadores,"28080,00","22400,00",Pago
+10/12/2025,Residencial Vista Mar,Alvenaria,Equipe própria,Mão de obra,Ajudantes de obra,"31790,00","31330,00",Pago
+10/12/2025,Edifício Solar de Camburi,Alvenaria,Depósito Praia Grande,Material,Cimento CP-II,"14430,00","16880,00",Pago
+12/12/2025,Residencial Vista Mar,Estrutura,Empreita Souza & Filhos,Mão de obra,Equipe de carpintaria,"20690,00","18010,00",Pago
+12/12/2025,Galpão Logístico Serra,Fundação,Fundações Serra,Subempreiteiro,Serviço de sondagem e escavação,"31410,00","29760,00",Pago
+13/12/2025,Residencial Vista Mar,Estrutura,Andaimes Vila Velha,Equipamento,Locação de escoramento metálico,"21020,00","17510,00",Pago
+14/12/2025,Residencial Vista Mar,Estrutura,Estruturas Camburi,Subempreiteiro,Serviço de concretagem de laje,"48380,00","32880,00",Pago
+15/12/2025,Galpão Logístico Serra,Estrutura,Cesan,Indireto,Água do canteiro,"3680,00","4290,00",Pago
+16/12/2025,Edifício Solar de Camburi,Estrutura,Equipe própria,Mão de obra,Equipe de concretagem,"40880,00","37200,00",Pago
+17/12/2025,Residencial Vista Mar,Alvenaria,Alvenaria Rocha,Subempreiteiro,Serviço de reboco externo,"22700,00","18440,00",Pago
+17/12/2025,Edifício Solar de Camburi,Estrutura,Administração local,Indireto,Administração local do canteiro,"2820,00","2690,00",Pago
+17/12/2025,Edifício Solar de Camburi,Estrutura,Vigilância Litoral,Indireto,Vigilância noturna,"3590,00","3760,00",Pago
+19/12/2025,Residencial Vista Mar,Estrutura,Aços Capixaba,Material,Aço CA-50 vergalhão,"22270,00","20150,00",Pago
+20/12/2025,Galpão Logístico Serra,Estrutura,Estruturas Camburi,Subempreiteiro,Serviço de concretagem de laje,"15360,00","19510,00",Pago
+20/12/2025,Galpão Logístico Serra,Estrutura,Vigilância Litoral,Indireto,Vigilância noturna,"4390,00","4810,00",Pago
+21/12/2025,Edifício Solar de Camburi,Estrutura,Locadora Serra Máquinas,Equipamento,Locação de grua mensal,"16280,00","18890,00",Pago
+23/12/2025,Galpão Logístico Serra,Estrutura,Equipe própria,Mão de obra,Equipe de concretagem,"14260,00","16080,00",Pago
+25/12/2025,Galpão Logístico Serra,Estrutura,Madeireira Santa Rita,Material,Chapa compensada para fôrma,"29640,00","27960,00",Pago
+27/12/2025,Residencial Vista Mar,Estrutura,Estruturas Camburi,Subempreiteiro,Empreitada de estrutura,"35540,00","29310,00",Pago
+27/12/2025,Residencial Vista Mar,Estrutura,Vigilância Litoral,Indireto,Vigilância noturna,"5900,00","5170,00",Pago
+27/12/2025,Edifício Solar de Camburi,Estrutura,Cerâmica Colatina,Material,Laje treliçada,"34230,00","32600,00",Pago
+28/12/2025,Residencial Vista Mar,Estrutura,Estruturas Camburi,Subempreiteiro,Serviço de concretagem de laje,"26280,00","18070,00",Pago
+28/12/2025,Residencial Vista Mar,Estrutura,Estruturas Camburi,Subempreiteiro,Serviço de concretagem de laje,"38850,00","35750,00",Pago
+28/12/2025,Residencial Vista Mar,Estrutura,Estruturas Camburi,Subempreiteiro,Serviço de concretagem de laje,"42640,00","33200,00",Pago
+29/12/2025,Residencial Vista Mar,Estrutura,Administração local,Indireto,Administração local do canteiro,"4700,00","4440,00",Pago
+29/12/2025,Edifício Solar de Camburi,Estrutura,Madeireira Santa Rita,Material,Chapa compensada para fôrma,"30780,00","35110,00",Pago
+29/12/2025,Galpão Logístico Serra,Estrutura,Estruturas Camburi,Subempreiteiro,Empreitada de estrutura,"28720,00","35160,00",Pago
+30/12/2025,Edifício Solar de Camburi,Estrutura,JR Mão de Obra,Mão de obra,Equipe de armadores,"35060,00","28810,00",Pago
+30/12/2025,Galpão Logístico Serra,Estrutura,Empreita Souza & Filhos,Mão de obra,Equipe de carpintaria,"29610,00","27670,00",Pago
+01/01/2026,Galpão Logístico Serra,Alvenaria,Depósito Praia Grande,Material,Cal hidratada e areia,"26270,00","31200,00",Pago
+02/01/2026,Residencial Vista Mar,Estrutura,Aços Capixaba,Material,Aço CA-50 vergalhão,"21050,00","18330,00",Pago
+05/01/2026,Residencial Vista Mar,Alvenaria,Alvenaria Rocha,Subempreiteiro,Serviço de reboco externo,"42660,00","35570,00",Pago
+06/01/2026,Residencial Vista Mar,Alvenaria,Cerâmica Colatina,Material,Bloco cerâmico 14x19x39,"21270,00","21120,00",Pago
+06/01/2026,Residencial Vista Mar,Alvenaria,Administração local,Indireto,Administração local do canteiro,"8510,00","7200,00",Pago
+09/01/2026,Edifício Solar de Camburi,Alvenaria,Administração local,Indireto,Administração local do canteiro,"6310,00","6030,00",Pago
+13/01/2026,Residencial Vista Mar,Alvenaria,Cerâmica Colatina,Material,Bloco cerâmico 14x19x39,"58910,00","43270,00",Pago
+14/01/2026,Edifício Solar de Camburi,Alvenaria,JR Mão de Obra,Mão de obra,Equipe de chapisco e reboco,"26360,00","24680,00",Pago
+14/01/2026,Galpão Logístico Serra,Estrutura,Empreita Souza & Filhos,Mão de obra,Equipe de carpintaria,"20220,00","24260,00",Pago
+15/01/2026,Residencial Vista Mar,Alvenaria,EDP Espírito Santo,Indireto,Energia do canteiro,"7110,00","6790,00",Pago
+16/01/2026,Residencial Vista Mar,Alvenaria,JR Mão de Obra,Mão de obra,Equipe de chapisco e reboco,"20120,00","17810,00",Pago
+16/01/2026,Galpão Logístico Serra,Estrutura,Concreteira Baía Sul,Equipamento,Locação de bomba de concreto,"23890,00","22480,00",Pago
+17/01/2026,Galpão Logístico Serra,Alvenaria,Cerâmica Colatina,Material,Bloco cerâmico 14x19x39,"31030,00","36900,00",Pago
+18/01/2026,Galpão Logístico Serra,Estrutura,Administração local,Indireto,Administração local do canteiro,"4080,00","4180,00",Pago
+19/01/2026,Galpão Logístico Serra,Alvenaria,Depósito Praia Grande,Material,Argamassa de assentamento,"36510,00","37080,00",Pago
+20/01/2026,Edifício Solar de Camburi,Alvenaria,Equipe própria,Mão de obra,Ajudantes de obra,"19170,00","20510,00",Pago
+20/01/2026,Edifício Solar de Camburi,Alvenaria,EDP Espírito Santo,Indireto,Energia do canteiro,"4400,00","4500,00",Pago
+21/01/2026,Galpão Logístico Serra,Estrutura,Madeireira Santa Rita,Material,Chapa compensada para fôrma,"37460,00","34010,00",Pago
+22/01/2026,Edifício Solar de Camburi,Alvenaria,Depósito Praia Grande,Material,Cimento CP-II,"28850,00","26870,00",Pago
+24/01/2026,Galpão Logístico Serra,Alvenaria,Depósito Praia Grande,Material,Cal hidratada e areia,"15590,00","15730,00",Pago
+25/01/2026,Residencial Vista Mar,Alvenaria,Empreita Souza & Filhos,Mão de obra,Equipe de pedreiros,"42000,00","32560,00",Pago
+30/01/2026,Galpão Logístico Serra,Estrutura,Cesan,Indireto,Água do canteiro,"4350,00","4460,00",Pago
+31/01/2026,Residencial Vista Mar,Alvenaria,Alvenaria Rocha,Subempreiteiro,Serviço de reboco externo,"36300,00","26380,00",Pago
+31/01/2026,Galpão Logístico Serra,Estrutura,Vigilância Litoral,Indireto,Vigilância noturna,"3440,00","3700,00",Pago
+01/02/2026,Condomínio Reserva Verde,Fundação,Equipe própria,Mão de obra,Equipe de escavação,"13650,00","16260,00",Pago
+02/02/2026,Edifício Solar de Camburi,Alvenaria,Depósito Praia Grande,Material,Argamassa de assentamento,"34500,00","35850,00",Pago
+03/02/2026,Galpão Logístico Serra,Alvenaria,Cerâmica Colatina,Material,Bloco cerâmico 14x19x39,"14800,00","14550,00",Pago
+03/02/2026,Condomínio Reserva Verde,Fundação,Administração local,Indireto,Administração local do canteiro,"5180,00","5270,00",Pago
+04/02/2026,Residencial Vista Mar,Instalações,Hidro Elétrica Norte,Material,"Cabo flexível 2,5mm","37440,00","28250,00",Pago
+04/02/2026,Edifício Solar de Camburi,Instalações,Hidro Elétrica Norte,Material,Quadro de distribuição,"31170,00","24890,00",Pago
+04/02/2026,Galpão Logístico Serra,Alvenaria,Depósito Praia Grande,Material,Cal hidratada e areia,"11860,00","15790,00",Pago
+05/02/2026,Residencial Vista Mar,Alvenaria,Equipe própria,Mão de obra,Ajudantes de obra,"14170,00","13060,00",Pago
+09/02/2026,Galpão Logístico Serra,Estrutura,Cerâmica Colatina,Material,Laje treliçada,"16770,00","20370,00",Pago
+09/02/2026,Galpão Logístico Serra,Alvenaria,Administração local,Indireto,Administração local do canteiro,"6330,00","7000,00",Pago
+09/02/2026,Condomínio Reserva Verde,Fundação,Equipe própria,Mão de obra,Equipe de escavação,"30680,00","29670,00",Pago
+10/02/2026,Residencial Vista Mar,Alvenaria,Equipe própria,Mão de obra,Ajudantes de obra,"47260,00","34420,00",Pago
+10/02/2026,Edifício Solar de Camburi,Alvenaria,Cerâmica Colatina,Material,Bloco cerâmico 14x19x39,"29340,00","31200,00",Pago
+11/02/2026,Galpão Logístico Serra,Estrutura,Estruturas Camburi,Subempreiteiro,Empreitada de estrutura,"35730,00","32470,00",Pago
+11/02/2026,Galpão Logístico Serra,Alvenaria,Equipe própria,Mão de obra,Ajudantes de obra,"25040,00","30970,00",Pago
+11/02/2026,Condomínio Reserva Verde,Estrutura,Estruturas Camburi,Subempreiteiro,Serviço de concretagem de laje,"16030,00","14560,00",Pago
+12/02/2026,Residencial Vista Mar,Alvenaria,EDP Espírito Santo,Indireto,Energia do canteiro,"7040,00","6280,00",Pago
+13/02/2026,Residencial Vista Mar,Alvenaria,Alvenaria Rocha,Subempreiteiro,Serviço de reboco externo,"41830,00","31060,00",Pago
+13/02/2026,Edifício Solar de Camburi,Alvenaria,JR Mão de Obra,Mão de obra,Equipe de chapisco e reboco,"13070,00","14680,00",Pago
+13/02/2026,Edifício Solar de Camburi,Instalações,JR Mão de Obra,Mão de obra,Equipe de encanadores,"35530,00","30830,00",Pago
+13/02/2026,Edifício Solar de Camburi,Instalações,JR Mão de Obra,Mão de obra,Equipe de eletricistas,"18750,00","19130,00",Pago
+13/02/2026,Galpão Logístico Serra,Estrutura,Empreita Souza & Filhos,Mão de obra,Equipe de carpintaria,"34930,00","33290,00",Pago
+14/02/2026,Condomínio Reserva Verde,Estrutura,Andaimes Vila Velha,Equipamento,Locação de escoramento metálico,"19560,00","23290,00",Pago
+15/02/2026,Residencial Vista Mar,Alvenaria,Depósito Praia Grande,Material,Cal hidratada e areia,"39440,00","30960,00",Pago
+15/02/2026,Condomínio Reserva Verde,Fundação,EDP Espírito Santo,Indireto,Energia do canteiro,"3790,00","4250,00",Pago
+16/02/2026,Residencial Vista Mar,Alvenaria,Equipe própria,Mão de obra,Ajudantes de obra,"23340,00","18120,00",Pago
+16/02/2026,Edifício Solar de Camburi,Alvenaria,Depósito Praia Grande,Material,Cimento CP-II,"29970,00","31270,00",Pago
+17/02/2026,Residencial Vista Mar,Instalações,JR Mão de Obra,Mão de obra,Equipe de eletricistas,"41380,00","30700,00",Pago
+17/02/2026,Galpão Logístico Serra,Alvenaria,Depósito Praia Grande,Material,Cal hidratada e areia,"24920,00","25540,00",Pago
+17/02/2026,Galpão Logístico Serra,Alvenaria,EDP Espírito Santo,Indireto,Energia do canteiro,"5470,00","6240,00",Pago
+18/02/2026,Residencial Vista Mar,Alvenaria,Administração local,Indireto,Administração local do canteiro,"6360,00","6510,00",Pago
+18/02/2026,Edifício Solar de Camburi,Alvenaria,Depósito Praia Grande,Material,Argamassa de assentamento,"33880,00","30350,00",Pago
+18/02/2026,Edifício Solar de Camburi,Alvenaria,JR Mão de Obra,Mão de obra,Equipe de chapisco e reboco,"20590,00","21940,00",Pago
+20/02/2026,Galpão Logístico Serra,Instalações,JR Mão de Obra,Mão de obra,Equipe de eletricistas,"23320,00","24380,00",Pago
+22/02/2026,Galpão Logístico Serra,Alvenaria,Depósito Praia Grande,Material,Argamassa de assentamento,"16530,00","21030,00",Pago
+22/02/2026,Condomínio Reserva Verde,Fundação,Concreteira Baía Sul,Material,Concreto usinado 25MPa,"33510,00","36680,00",Pago
+24/02/2026,Galpão Logístico Serra,Estrutura,Cerâmica Colatina,Material,Laje treliçada,"16190,00","18500,00",Pago
+24/02/2026,Galpão Logístico Serra,Estrutura,Concreteira Baía Sul,Material,Concreto usinado 30MPa,"25350,00","28870,00",Pago
+26/02/2026,Condomínio Reserva Verde,Estrutura,Estruturas Camburi,Subempreiteiro,Empreitada de estrutura,"26550,00","28960,00",Pago
+27/02/2026,Residencial Vista Mar,Alvenaria,Depósito Praia Grande,Material,Cal hidratada e areia,"41570,00","30770,00",Pago
+27/02/2026,Edifício Solar de Camburi,Alvenaria,Depósito Praia Grande,Material,Argamassa de assentamento,"30020,00","27070,00",Pago
+27/02/2026,Edifício Solar de Camburi,Alvenaria,Administração local,Indireto,Administração local do canteiro,"4810,00","5070,00",Pago
+28/02/2026,Residencial Vista Mar,Alvenaria,Cerâmica Colatina,Material,Bloco cerâmico 14x19x39,"18990,00","15510,00",Pago
+28/02/2026,Edifício Solar de Camburi,Alvenaria,Alvenaria Rocha,Subempreiteiro,Serviço de reboco externo,"26030,00","26590,00",Pago
+28/02/2026,Edifício Solar de Camburi,Alvenaria,EDP Espírito Santo,Indireto,Energia do canteiro,"5980,00","5860,00",Pago
+01/03/2026,Residencial Vista Mar,Instalações,Hidro Elétrica Norte,Material,Registro e conexões,"31450,00","28220,00",Pago
+02/03/2026,Residencial Vista Mar,Instalações,Hidro Elétrica Norte,Material,"Cabo flexível 2,5mm","41920,00","29280,00",Pago
+02/03/2026,Edifício Solar de Camburi,Instalações,Vigilância Litoral,Indireto,Vigilância noturna,"5030,00","4790,00",Pago
+02/03/2026,Condomínio Reserva Verde,Estrutura,Estruturas Camburi,Subempreiteiro,Empreitada de estrutura,"33840,00","36350,00",Pago
+03/03/2026,Galpão Logístico Serra,Instalações,JR Mão de Obra,Mão de obra,Equipe de eletricistas,"28540,00","28070,00",Pago
+04/03/2026,Residencial Vista Mar,Instalações,Elétrica Camburi,Subempreiteiro,Empreitada elétrica,"26700,00","18880,00",Pago
+04/03/2026,Edifício Solar de Camburi,Instalações,JR Mão de Obra,Mão de obra,Equipe de eletricistas,"36140,00","37330,00",Pago
+04/03/2026,Galpão Logístico Serra,Instalações,Hidro Elétrica Norte,Material,"Cabo flexível 2,5mm","24750,00","27100,00",Pago
+04/03/2026,Condomínio Reserva Verde,Estrutura,Equipe própria,Mão de obra,Equipe de concretagem,"17060,00","17150,00",Pago
+05/03/2026,Edifício Solar de Camburi,Instalações,Administração local,Indireto,Administração local do canteiro,"5230,00","5730,00",Pago
+06/03/2026,Galpão Logístico Serra,Instalações,Vigilância Litoral,Indireto,Vigilância noturna,"4170,00","4160,00",Pago
+07/03/2026,Residencial Vista Mar,Instalações,Hidro Elétrica Norte,Material,Registro e conexões,"29240,00","25500,00",Pago
+08/03/2026,Residencial Vista Mar,Instalações,Vigilância Litoral,Indireto,Vigilância noturna,"7700,00","7100,00",Pago
+09/03/2026,Galpão Logístico Serra,Instalações,JR Mão de Obra,Mão de obra,Equipe de eletricistas,"39250,00","35600,00",Pago
+10/03/2026,Edifício Solar de Camburi,Instalações,Hidro Elétrica Norte,Material,Quadro de distribuição,"36150,00","36030,00",Pago
+10/03/2026,Galpão Logístico Serra,Instalações,JR Mão de Obra,Mão de obra,Equipe de eletricistas,"34090,00","34020,00",Pago
+10/03/2026,Galpão Logístico Serra,Instalações,Administração local,Indireto,Administração local do canteiro,"4810,00","5290,00",Pago
+11/03/2026,Residencial Vista Mar,Instalações,Hidro Elétrica Norte,Material,Quadro de distribuição,"37440,00","28670,00",Pago
+11/03/2026,Residencial Vista Mar,Instalações,JR Mão de Obra,Mão de obra,Equipe de encanadores,"40000,00","31620,00",Pago
+11/03/2026,Condomínio Reserva Verde,Estrutura,Estruturas Camburi,Subempreiteiro,Serviço de concretagem de laje,"21090,00","22260,00",Pago
+11/03/2026,Condomínio Reserva Verde,Estrutura,Vigilância Litoral,Indireto,Vigilância noturna,"2950,00","3240,00",Pago
+12/03/2026,Residencial Vista Mar,Instalações,JR Mão de Obra,Mão de obra,Equipe de encanadores,"19310,00","13980,00",Pago
+12/03/2026,Condomínio Reserva Verde,Estrutura,Aços Capixaba,Material,Aço CA-50 vergalhão,"36040,00","32650,00",Pago
+12/03/2026,Condomínio Reserva Verde,Alvenaria,JR Mão de Obra,Mão de obra,Equipe de chapisco e reboco,"16250,00","14630,00",Pago
+13/03/2026,Edifício Solar de Camburi,Instalações,Hidro Elétrica Norte,Material,Tubulação PVC esgoto,"41420,00","36570,00",Pago
+15/03/2026,Residencial Vista Mar,Instalações,Hidro Elétrica Norte,Material,"Cabo flexível 2,5mm","47440,00","36390,00",Pago
+16/03/2026,Galpão Logístico Serra,Alvenaria,JR Mão de Obra,Mão de obra,Equipe de chapisco e reboco,"19200,00","23420,00",Pago
+17/03/2026,Galpão Logístico Serra,Instalações,Depósito Praia Grande,Material,Eletroduto e caixas,"35220,00","35800,00",Pago
+17/03/2026,Condomínio Reserva Verde,Alvenaria,Depósito Praia Grande,Material,Argamassa de assentamento,"25370,00","27720,00",Pago
+19/03/2026,Condomínio Reserva Verde,Alvenaria,JR Mão de Obra,Mão de obra,Equipe de chapisco e reboco,"13960,00","17720,00",Pago
+20/03/2026,Galpão Logístico Serra,Instalações,Hidro Elétrica Norte,Material,Quadro de distribuição,"37860,00","35390,00",Pago
+20/03/2026,Condomínio Reserva Verde,Estrutura,Administração local,Indireto,Administração local do canteiro,"3390,00","3790,00",Pago
+21/03/2026,Condomínio Reserva Verde,Fundação,Concreteira Baía Sul,Material,Concreto usinado 25MPa,"18590,00","19710,00",Pago
+21/03/2026,Condomínio Reserva Verde,Estrutura,Cesan,Indireto,Água do canteiro,"3500,00","3510,00",Pago
+23/03/2026,Residencial Vista Mar,Instalações,Administração local,Indireto,Administração local do canteiro,"6680,00","6890,00",Pago
+24/03/2026,Residencial Vista Mar,Alvenaria,Empreita Souza & Filhos,Mão de obra,Equipe de pedreiros,"28980,00","26580,00",Pago
+26/03/2026,Residencial Vista Mar,Instalações,Hidro Elétrica Norte,Material,Registro e conexões,"43860,00","33160,00",Pago
+26/03/2026,Edifício Solar de Camburi,Instalações,Hidro Elétrica Norte,Material,"Cabo flexível 2,5mm","18090,00","13920,00",Pago
+27/03/2026,Residencial Vista Mar,Instalações,Hidráulica Norte,Subempreiteiro,Empreitada hidrossanitária,"45370,00","29480,00",Pago
+27/03/2026,Residencial Vista Mar,Instalações,Hidro Elétrica Norte,Material,Tubulação PVC esgoto,"40360,00","28820,00",Pago
+27/03/2026,Edifício Solar de Camburi,Alvenaria,Depósito Praia Grande,Material,Cal hidratada e areia,"28760,00","24430,00",Pago
+28/03/2026,Edifício Solar de Camburi,Instalações,Equipe própria,Mão de obra,Ajudantes de instalação,"23150,00","18050,00",Pago
+30/03/2026,Galpão Logístico Serra,Alvenaria,Depósito Praia Grande,Material,Argamassa de assentamento,"34800,00","35380,00",Pago
+30/03/2026,Condomínio Reserva Verde,Fundação,Aços Capixaba,Material,Aço para armação de sapatas,"37110,00","35810,00",Pago
+01/04/2026,Galpão Logístico Serra,Cobertura,Depósito Praia Grande,Material,Calha e rufo galvanizado,"25530,00","25230,00",Pago
+04/04/2026,Condomínio Reserva Verde,Alvenaria,JR Mão de Obra,Mão de obra,Equipe de chapisco e reboco,"32930,00","31150,00",Pago
+05/04/2026,Galpão Logístico Serra,Cobertura,Madeireira Santa Rita,Material,Madeiramento do telhado,"23340,00","27160,00",Pago
+06/04/2026,Galpão Logístico Serra,Cobertura,Cesan,Indireto,Água do canteiro,"4810,00","5170,00",Pago
+08/04/2026,Galpão Logístico Serra,Cobertura,Administração local,Indireto,Administração local do canteiro,"6000,00","6230,00",Pago
+08/04/2026,Condomínio Reserva Verde,Estrutura,Equipe própria,Mão de obra,Equipe de armadores,"26670,00","29560,00",Pago
+09/04/2026,Residencial Vista Mar,Instalações,Elétrica Camburi,Subempreiteiro,Empreitada elétrica,"17660,00","14990,00",Pago
+09/04/2026,Galpão Logístico Serra,Instalações,Hidro Elétrica Norte,Material,"Cabo flexível 2,5mm","8440,00","10380,00",Pago
+10/04/2026,Residencial Vista Mar,Instalações,Hidráulica Norte,Subempreiteiro,Empreitada hidrossanitária,"22100,00","18990,00",Pago
+11/04/2026,Galpão Logístico Serra,Instalações,Depósito Praia Grande,Material,Eletroduto e caixas,"16370,00","15780,00",Pago
+12/04/2026,Galpão Logístico Serra,Instalações,JR Mão de Obra,Mão de obra,Equipe de encanadores,"19850,00","20690,00",Pago
+13/04/2026,Residencial Vista Mar,Instalações,JR Mão de Obra,Mão de obra,Equipe de eletricistas,"26230,00","22210,00",Pago
+13/04/2026,Residencial Vista Mar,Instalações,Vigilância Litoral,Indireto,Vigilância noturna,"6280,00","5950,00",Pago
+13/04/2026,Condomínio Reserva Verde,Alvenaria,Depósito Praia Grande,Material,Cimento CP-II,"39730,00","37880,00",Pago
+13/04/2026,Condomínio Reserva Verde,Alvenaria,Equipe própria,Mão de obra,Ajudantes de obra,"21470,00","22580,00",Pago
+14/04/2026,Edifício Solar de Camburi,Instalações,Hidro Elétrica Norte,Material,"Cabo flexível 2,5mm","29960,00","32890,00",Pago
+14/04/2026,Edifício Solar de Camburi,Instalações,Vigilância Litoral,Indireto,Vigilância noturna,"4230,00","4730,00",Pago
+15/04/2026,Edifício Solar de Camburi,Instalações,Depósito Praia Grande,Material,Eletroduto e caixas,"19400,00","19590,00",Pago
+15/04/2026,Galpão Logístico Serra,Instalações,Hidráulica Norte,Subempreiteiro,Empreitada hidrossanitária,"19720,00","17790,00",Pago
+15/04/2026,Condomínio Reserva Verde,Estrutura,Concreteira Baía Sul,Material,Concreto usinado 30MPa,"18120,00","19640,00",Pago
+16/04/2026,Galpão Logístico Serra,Instalações,Hidráulica Norte,Subempreiteiro,Empreitada hidrossanitária,"31940,00","38540,00",Pago
+17/04/2026,Residencial Vista Mar,Instalações,Administração local,Indireto,Administração local do canteiro,"6990,00","6040,00",Pago
+17/04/2026,Condomínio Reserva Verde,Estrutura,Aços Capixaba,Material,Aço CA-50 vergalhão,"45780,00","42800,00",Pago
+19/04/2026,Condomínio Reserva Verde,Alvenaria,Depósito Praia Grande,Material,Cal hidratada e areia,"25600,00","24380,00",Pago
+20/04/2026,Condomínio Reserva Verde,Estrutura,Estruturas Camburi,Subempreiteiro,Serviço de concretagem de laje,"20160,00","24410,00",Pago
+22/04/2026,Edifício Solar de Camburi,Instalações,Elétrica Camburi,Subempreiteiro,Instalação de ar-condicionado,"21690,00","23740,00",Pago
+23/04/2026,Edifício Solar de Camburi,Instalações,JR Mão de Obra,Mão de obra,Equipe de eletricistas,"27420,00","21510,00",Pago
+23/04/2026,Edifício Solar de Camburi,Cobertura,Estruturas Camburi,Subempreiteiro,Empreitada de cobertura,"14610,00","16220,00",Pago
+24/04/2026,Residencial Vista Mar,Instalações,Depósito Praia Grande,Material,Eletroduto e caixas,"47750,00","32490,00",Pago
+25/04/2026,Residencial Vista Mar,Instalações,Locadora Serra Máquinas,Equipamento,Locação de compressor,"19970,00","14540,00",Pago
+25/04/2026,Condomínio Reserva Verde,Estrutura,Empreita Souza & Filhos,Mão de obra,Equipe de carpintaria,"22670,00","22080,00",Pago
+25/04/2026,Condomínio Reserva Verde,Alvenaria,Administração local,Indireto,Administração local do canteiro,"4940,00","5420,00",Pago
+26/04/2026,Edifício Solar de Camburi,Instalações,Depósito Praia Grande,Material,Eletroduto e caixas,"15550,00","15950,00",Pago
+29/04/2026,Condomínio Reserva Verde,Alvenaria,EDP Espírito Santo,Indireto,Energia do canteiro,"5610,00","5320,00",Pago
+30/04/2026,Edifício Solar de Camburi,Instalações,Administração local,Indireto,Administração local do canteiro,"5390,00","5590,00",Pago
+30/04/2026,Galpão Logístico Serra,Cobertura,Depósito Praia Grande,Material,Calha e rufo galvanizado,"17430,00","18390,00",Pago
+01/05/2026,Edifício Solar de Camburi,Cobertura,Cesan,Indireto,Água do canteiro,"5830,00","6250,00",Pago
+02/05/2026,Galpão Logístico Serra,Acabamento,Mármores Jucu,Material,Rodapé e soleira,"32920,00","32990,00",Pago
+04/05/2026,Galpão Logístico Serra,Acabamento,Equipe própria,Mão de obra,Equipe de acabamento fino,"27210,00","24600,00",Pago
+05/05/2026,Residencial Vista Mar,Cobertura,Madeireira Santa Rita,Material,Madeiramento do telhado,"20770,00","15920,00",Pago
+06/05/2026,Condomínio Reserva Verde,Instalações,JR Mão de Obra,Mão de obra,Equipe de eletricistas,"40320,00","36070,00",Pago
+07/05/2026,Galpão Logístico Serra,Acabamento,Equipe própria,Mão de obra,Equipe de acabamento fino,"17740,00","19410,00",Pago
+07/05/2026,Galpão Logístico Serra,Acabamento,Mármores Jucu,Material,Bancada de granito,"32000,00","31710,00",Pago
+07/05/2026,Condomínio Reserva Verde,Alvenaria,Depósito Praia Grande,Material,Argamassa de assentamento,"32410,00","33090,00",Pago
+08/05/2026,Residencial Vista Mar,Cobertura,Cesan,Indireto,Água do canteiro,"6580,00","6650,00",Pago
+08/05/2026,Galpão Logístico Serra,Cobertura,Cesan,Indireto,Água do canteiro,"6540,00","6370,00",Pago
+09/05/2026,Residencial Vista Mar,Cobertura,Madeireira Santa Rita,Material,Madeiramento do telhado,"53980,00","42930,00",Pago
+10/05/2026,Residencial Vista Mar,Instalações,Hidro Elétrica Norte,Material,Tubulação PVC esgoto,"50770,00","33810,00",Pago
+11/05/2026,Residencial Vista Mar,Cobertura,Empreita Souza & Filhos,Mão de obra,Equipe de telhadista,"20630,00","21130,00",Pago
+11/05/2026,Condomínio Reserva Verde,Instalações,Hidro Elétrica Norte,Material,Quadro de distribuição,"30110,00","29180,00",Pago
+13/05/2026,Residencial Vista Mar,Cobertura,Administração local,Indireto,Administração local do canteiro,"4730,00","4860,00",Pago
+14/05/2026,Galpão Logístico Serra,Cobertura,Estruturas Camburi,Subempreiteiro,Empreitada de cobertura,"29300,00","29380,00",Pago
+15/05/2026,Condomínio Reserva Verde,Instalações,Administração local,Indireto,Administração local do canteiro,"3400,00","3510,00",Pago
+16/05/2026,Edifício Solar de Camburi,Cobertura,Depósito Praia Grande,Material,Manta térmica,"19740,00","24340,00",Pago
+16/05/2026,Edifício Solar de Camburi,Cobertura,Administração local,Indireto,Administração local do canteiro,"3850,00","3880,00",Pago
+18/05/2026,Condomínio Reserva Verde,Instalações,JR Mão de Obra,Mão de obra,Equipe de eletricistas,"18140,00","16750,00",Pago
+19/05/2026,Galpão Logístico Serra,Acabamento,JR Mão de Obra,Mão de obra,Equipe de assentamento de piso,"38120,00","31670,00",Pago
+19/05/2026,Condomínio Reserva Verde,Instalações,Elétrica Camburi,Subempreiteiro,Instalação de ar-condicionado,"28940,00","25010,00",Pago
+20/05/2026,Edifício Solar de Camburi,Instalações,Hidro Elétrica Norte,Material,"Cabo flexível 2,5mm","19560,00","18880,00",Pago
+21/05/2026,Edifício Solar de Camburi,Instalações,Hidro Elétrica Norte,Material,Registro e conexões,"32110,00","35010,00",Pago
+23/05/2026,Residencial Vista Mar,Cobertura,Empreita Souza & Filhos,Mão de obra,Equipe de carpintaria de telhado,"26920,00","24400,00",Pago
+23/05/2026,Edifício Solar de Camburi,Instalações,JR Mão de Obra,Mão de obra,Equipe de eletricistas,"28670,00","27430,00",Pago
+24/05/2026,Galpão Logístico Serra,Cobertura,Administração local,Indireto,Administração local do canteiro,"5870,00","5810,00",Pago
+30/05/2026,Condomínio Reserva Verde,Instalações,Vigilância Litoral,Indireto,Vigilância noturna,"3860,00","3810,00",A pagar
+31/05/2026,Condomínio Reserva Verde,Instalações,Elétrica Camburi,Subempreiteiro,Empreitada elétrica,"31040,00","28640,00",Pago
+02/06/2026,Galpão Logístico Serra,Cobertura,Madeireira Santa Rita,Material,Madeiramento do telhado,"41430,00","41720,00",Pago
+03/06/2026,Condomínio Reserva Verde,Cobertura,Cerâmica Colatina,Material,Telha cerâmica,"32200,00","29220,00",Pago
+06/06/2026,Galpão Logístico Serra,Acabamento,Tintas Litoral,Material,Tinta acrílica premium,"19180,00","16170,00",Pago
+07/06/2026,Residencial Vista Mar,Cobertura,Cerâmica Colatina,Material,Telha cerâmica,"27280,00","21280,00",A pagar
+07/06/2026,Residencial Vista Mar,Cobertura,Estruturas Camburi,Subempreiteiro,Empreitada de cobertura,"23850,00","21910,00",Pago
+07/06/2026,Edifício Solar de Camburi,Cobertura,Estruturas Camburi,Subempreiteiro,Empreitada de cobertura,"19810,00","23640,00",Pago
+07/06/2026,Galpão Logístico Serra,Acabamento,Administração local,Indireto,Administração local do canteiro,"4730,00","4830,00",A pagar
+09/06/2026,Galpão Logístico Serra,Cobertura,Depósito Praia Grande,Material,Manta térmica,"11400,00","14160,00",Pago
+11/06/2026,Edifício Solar de Camburi,Cobertura,Madeireira Santa Rita,Material,Madeiramento do telhado,"16010,00","17950,00",A pagar
+11/06/2026,Edifício Solar de Camburi,Cobertura,Administração local,Indireto,Administração local do canteiro,"4930,00","5110,00",A pagar
+11/06/2026,Edifício Solar de Camburi,Cobertura,Cesan,Indireto,Água do canteiro,"4730,00","4790,00",A pagar
+12/06/2026,Edifício Solar de Camburi,Cobertura,Estruturas Camburi,Subempreiteiro,Empreitada de cobertura,"39700,00","34620,00",A pagar
+13/06/2026,Galpão Logístico Serra,Acabamento,EDP Espírito Santo,Indireto,Energia do canteiro,"5210,00","5030,00",A pagar
+14/06/2026,Galpão Logístico Serra,Cobertura,Madeireira Santa Rita,Material,Madeiramento do telhado,"23050,00","23710,00",Pago
+18/06/2026,Residencial Vista Mar,Cobertura,Cesan,Indireto,Água do canteiro,"8220,00","7500,00",A pagar
+18/06/2026,Edifício Solar de Camburi,Cobertura,Madeireira Santa Rita,Material,Madeiramento do telhado,"32380,00","35900,00",A pagar
+19/06/2026,Residencial Vista Mar,Cobertura,Empreita Souza & Filhos,Mão de obra,Equipe de carpintaria de telhado,"34230,00","35190,00",A pagar
+19/06/2026,Residencial Vista Mar,Cobertura,Administração local,Indireto,Administração local do canteiro,"7920,00","6750,00",Pago
+23/06/2026,Residencial Vista Mar,Cobertura,Cerâmica Colatina,Material,Telha cerâmica,"32770,00","26580,00",A pagar
+23/06/2026,Edifício Solar de Camburi,Cobertura,Cerâmica Colatina,Material,Telha cerâmica,"24730,00","22000,00",A pagar
+23/06/2026,Condomínio Reserva Verde,Instalações,Administração local,Indireto,Administração local do canteiro,"3770,00","4280,00",Pago
+23/06/2026,Condomínio Reserva Verde,Instalações,Vigilância Litoral,Indireto,Vigilância noturna,"5410,00","5800,00",A pagar
+26/06/2026,Galpão Logístico Serra,Acabamento,Limpeza Total Serviços,Indireto,Limpeza final de obra,"4300,00","4150,00",Pago
+28/06/2026,Galpão Logístico Serra,Acabamento,Vidraçaria Enseada,Subempreiteiro,Instalação de esquadrias,"22940,00","20040,00",Pago
+28/06/2026,Galpão Logístico Serra,Acabamento,Vidraçaria Enseada,Material,Esquadria de alumínio,"27820,00","28910,00",Pago
+29/06/2026,Condomínio Reserva Verde,Instalações,Hidráulica Norte,Subempreiteiro,Empreitada hidrossanitária,"15890,00","15910,00",A pagar
+30/06/2026,Galpão Logístico Serra,Acabamento,Pintura Marataízes,Subempreiteiro,Empreitada de pintura,"39240,00","33920,00",Pago
+01/07/2026,Residencial Vista Mar,Acabamento,Vidraçaria Enseada,Material,Esquadria de alumínio,"36100,00","27080,00",Pago
+01/07/2026,Condomínio Reserva Verde,Cobertura,Administração local,Indireto,Administração local do canteiro,"3900,00","4370,00",Pago
+02/07/2026,Edifício Solar de Camburi,Cobertura,Andaimes Vila Velha,Equipamento,Locação de andaime de telhado,"23290,00","23650,00",A pagar
+03/07/2026,Residencial Vista Mar,Acabamento,Gesso e Forro Vitória,Subempreiteiro,Empreitada de gesso e forro,"37920,00","30960,00",Pago
+06/07/2026,Residencial Vista Mar,Acabamento,Vidraçaria Enseada,Subempreiteiro,Instalação de esquadrias,"35260,00","24900,00",A pagar
+08/07/2026,Residencial Vista Mar,Acabamento,EDP Espírito Santo,Indireto,Energia do canteiro,"2880,00","2850,00",A pagar
+11/07/2026,Condomínio Reserva Verde,Instalações,Elétrica Camburi,Subempreiteiro,Instalação de ar-condicionado,"40640,00","35230,00",Pago
+13/07/2026,Condomínio Reserva Verde,Acabamento,Pintura Marataízes,Subempreiteiro,Empreitada de pintura,"31130,00","34240,00",Pago
+15/07/2026,Residencial Vista Mar,Acabamento,Mármores Jucu,Material,Bancada de granito,"29220,00","20560,00",Pago
+17/07/2026,Residencial Vista Mar,Cobertura,Empreita Souza & Filhos,Mão de obra,Equipe de telhadista,"26250,00","19850,00",A pagar
+17/07/2026,Edifício Solar de Camburi,Acabamento,Hidro Elétrica Norte,Material,Louças e metais,"30940,00","25430,00",Pago
+17/07/2026,Edifício Solar de Camburi,Acabamento,EDP Espírito Santo,Indireto,Energia do canteiro,"2240,00","2480,00",A pagar
+19/07/2026,Residencial Vista Mar,Acabamento,Administração local,Indireto,Administração local do canteiro,"5240,00","4610,00",A pagar
+19/07/2026,Condomínio Reserva Verde,Acabamento,Equipe própria,Mão de obra,Equipe de acabamento fino,"18260,00","20760,00",Pago
+19/07/2026,Condomínio Reserva Verde,Acabamento,JR Mão de Obra,Mão de obra,Equipe de pintura,"32060,00","34390,00",Pago
+19/07/2026,Condomínio Reserva Verde,Cobertura,Cesan,Indireto,Água do canteiro,"4310,00","4580,00",Pago
+21/07/2026,Residencial Vista Mar,Acabamento,Cerâmica Colatina,Material,Piso porcelanato 80x80,"28970,00","24700,00",A pagar
+22/07/2026,Edifício Solar de Camburi,Acabamento,Administração local,Indireto,Administração local do canteiro,"3890,00","3810,00",Pago
+23/07/2026,Edifício Solar de Camburi,Acabamento,Limpeza Total Serviços,Indireto,Limpeza final de obra,"2600,00","2740,00",Pago
+24/07/2026,Residencial Vista Mar,Cobertura,Impermeabiliza ES,Subempreiteiro,Impermeabilização de laje,"35930,00","28970,00",Pago
+26/07/2026,Residencial Vista Mar,Cobertura,Empreita Souza & Filhos,Mão de obra,Equipe de carpintaria de telhado,"22060,00","19620,00",A pagar
+26/07/2026,Residencial Vista Mar,Acabamento,Equipe própria,Mão de obra,Equipe de assentamento de piso,"36470,00","24850,00",A pagar
+26/07/2026,Edifício Solar de Camburi,Cobertura,Madeireira Santa Rita,Material,Madeiramento do telhado,"32180,00","30430,00",Pago
+27/07/2026,Residencial Vista Mar,Acabamento,Gesso e Forro Vitória,Subempreiteiro,Empreitada de gesso e forro,"20320,00","18100,00",A pagar
+27/07/2026,Condomínio Reserva Verde,Instalações,Hidro Elétrica Norte,Material,Tubulação PVC esgoto,"24980,00","26260,00",A pagar
+28/07/2026,Condomínio Reserva Verde,Instalações,Equipe própria,Mão de obra,Ajudantes de instalação,"20890,00","22240,00",Pago
+29/07/2026,Residencial Vista Mar,Acabamento,Limpeza Total Serviços,Indireto,Limpeza final de obra,"3420,00","3270,00",Pago
+29/07/2026,Edifício Solar de Camburi,Acabamento,Locadora Serra Máquinas,Equipamento,Locação de plataforma elevatória,"16640,00","17620,00",A pagar
+31/07/2026,Condomínio Reserva Verde,Cobertura,Impermeabiliza ES,Subempreiteiro,Impermeabilização de laje,"28310,00","28900,00",Pago
+31/07/2026,Condomínio Reserva Verde,Acabamento,Hidro Elétrica Norte,Material,Louças e metais,"22170,00","20440,00",A pagar
+03/08/2026,Edifício Solar de Camburi,Acabamento,Vidraçaria Enseada,Material,Esquadria de alumínio,"34270,00","25620,00",A pagar
+03/08/2026,Condomínio Reserva Verde,Acabamento,EDP Espírito Santo,Indireto,Energia do canteiro,"2330,00","2640,00",Pago
+04/08/2026,Edifício Solar de Camburi,Acabamento,Locadora Serra Máquinas,Equipamento,Locação de plataforma elevatória,"24520,00","23120,00",A pagar
+04/08/2026,Condomínio Reserva Verde,Cobertura,Empreita Souza & Filhos,Mão de obra,Equipe de carpintaria de telhado,"25130,00","31430,00",Pago
+06/08/2026,Residencial Vista Mar,Acabamento,Administração local,Indireto,Administração local do canteiro,"5000,00","4450,00",A pagar
+06/08/2026,Condomínio Reserva Verde,Cobertura,Madeireira Santa Rita,Material,Madeiramento do telhado,"20040,00","23650,00",Pago
+08/08/2026,Condomínio Reserva Verde,Acabamento,Limpeza Total Serviços,Indireto,Limpeza final de obra,"3060,00","3040,00",A pagar
+09/08/2026,Residencial Vista Mar,Acabamento,Equipe própria,Mão de obra,Equipe de acabamento fino,"34100,00","25960,00",Pago
+10/08/2026,Condomínio Reserva Verde,Acabamento,Gesso e Forro Vitória,Subempreiteiro,Empreitada de gesso e forro,"28620,00","24170,00",Pago

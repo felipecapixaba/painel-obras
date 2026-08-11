@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Capixaba Shop">
+  <rect width="512" height="512" rx="96" fill="#0a2a4a"/>
+  <rect x="128" y="128" width="256" height="256" rx="44" fill="#e23b45"/>
+  <text x="256" y="256" fill="#ffffff" font-family="Inter, Segoe UI, system-ui, sans-serif"
+        font-size="118" font-weight="700" text-anchor="middle" dominant-baseline="central"
+        letter-spacing="2">CS</text>
+</svg>
