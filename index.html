@@ -1575,6 +1575,13 @@ function rampaAtual() {
 }
 
 function render() {
+  // A dica só se escondia no `mouseleave` do elemento sob o ponteiro. Clicar numa
+  // fatia do donut filtra e redesenha o SVG: o <path> que dispararia esse
+  // mouseleave deixa de existir antes de disparar, e a dica ficava presa na tela
+  // — inclusive depois de limpar o filtro, porque limpar também só redesenha.
+  // Todo redesenho destrói os alvos, então esconder aqui cobre todos os casos.
+  esconderDica();
+
   const P = PERFIL();
   const dados = filtrar();
   const contados = contar(dados);
@@ -1906,6 +1913,16 @@ dlg.addEventListener('close', () => {
   carregar(true);
 });
 addEventListener('resize', esconderDica);
+
+// Em tela de toque não existe `mouseleave`: a dica aberta por um toque ficaria na
+// tela indefinidamente se aquele gráfico não filtrar nada (o mensal, por exemplo).
+// Rolar a página ou tocar fora de um gráfico fecha. A captura (3º argumento) é
+// para decidir antes que o alvo trate o evento; tocar sobre o próprio gráfico não
+// fecha, senão a dica sumiria no mesmo toque que a abriu.
+addEventListener('scroll', esconderDica, { passive: true });
+addEventListener('pointerdown', e => {
+  if (!(e.target instanceof Element) || !e.target.closest('svg')) esconderDica();
+}, true);
 
 /* --- arrastar um CSV para dentro do painel ---------------------------------
    Para o cliente que vive no Excel: exporta "Salvar como CSV", arrasta aqui e vê.
