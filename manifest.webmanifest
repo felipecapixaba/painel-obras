@@ -1,6 +1,6 @@
 {
   "name": "Painel de Obras — demonstração — Capixaba Shop",
-  "short_name": "Painel (demo)",
+  "short_name": "Painel DEMO",
   "description": "Demonstração do painel de custo de obra, com uma construtora fictícia.",
   "start_url": "./",
   "scope": "./",
