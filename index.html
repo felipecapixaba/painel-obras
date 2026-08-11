@@ -486,6 +486,111 @@ dialog::backdrop { background: rgba(6,10,18,.55); }
 }
 :root[data-theme="dark"] .selo-ficticio { color: #3a2c00; }
 
+/* ---------- tributos ---------- */
+.trib-entrada {
+  display: flex; gap: 16px; flex-wrap: wrap; align-items: flex-start;
+  padding: 0 18px 14px; border-bottom: 1px solid var(--hairline);
+}
+.trib-campo { display: flex; flex-direction: column; gap: 4px; flex: 1 1 220px; min-width: 0; }
+.trib-campo--curto { flex: 0 1 150px; }
+.trib-campo label { font-size: 12px; font-weight: 600; color: var(--ink-2); }
+.trib-campo input, .trib-campo select {
+  width: 100%; padding: 9px 11px; font: inherit; font-size: 15px;
+  color: var(--ink); background: var(--surface-2);
+  border: 1px solid var(--hairline); border-radius: 6px;
+  font-variant-numeric: tabular-nums;
+}
+.trib-campo select { font-size: 14px; }
+.trib-campo em { font-size: 11px; color: var(--muted); font-style: normal; line-height: 1.4; }
+
+.trib-resumo {
+  display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap;
+  padding: 16px 18px 4px;
+}
+.trib-total { font-size: 30px; font-weight: 600; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+.trib-pct {
+  font-size: 13px; font-weight: 600; padding: 3px 9px; border-radius: 999px;
+  background: color-mix(in srgb, var(--critical) 12%, transparent); color: var(--critical-ink);
+}
+.trib-rot { font-size: 13px; color: var(--muted); }
+
+.trib-nota {
+  margin: 10px 18px 0; padding: 10px 13px; border-radius: 6px;
+  background: var(--surface-2); border-left: 3px solid var(--s1);
+  font-size: 12.5px; color: var(--ink-2); line-height: 1.55;
+}
+.trib-nota b { color: var(--ink); }
+.trib-nota--futuro { border-left-color: var(--warning); }
+
+/* `fixed` é o que segura a tabela dentro do card: com o layout automático, a
+   largura mínima do conteúdo (detalhe longo + valor que não quebra) inflava a
+   tabela para além da tela e empurrava a PÁGINA inteira para o lado. */
+.trib-lista { width: 100%; table-layout: fixed; border-collapse: collapse; margin-top: 12px; }
+.trib-lista th:nth-child(2), .trib-lista td:nth-child(2) { width: 120px; }
+.trib-lista th:last-child, .trib-lista td:last-child { width: 130px; }
+.trib-lista td:first-child { overflow-wrap: anywhere; }
+/* O motor declara `white-space: nowrap` para TODA th/td — necessário na tabela
+   de lançamentos, que rola de lado, mas aqui impedia o texto de explicação de
+   quebrar linha: cada detalhe virava uma linha de 340px e inflava a tabela
+   inteira. A coluna de valor mantém o nowrap logo abaixo. */
+.trib-lista th, .trib-lista td { white-space: normal; }
+.trib-lista .n { white-space: nowrap; }
+.trib-lista th, .trib-lista td { padding: 9px 18px; font-size: 13px; text-align: left; }
+.trib-lista thead th {
+  font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .05em;
+  color: var(--muted); border-bottom: 1px solid var(--hairline);
+}
+.trib-lista tbody tr { border-bottom: 1px solid var(--hairline); }
+.trib-lista tbody tr:last-child { border-bottom: 0; }
+.trib-lista .n { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.trib-sigla { font-weight: 600; }
+.trib-det { display: block; font-size: 11.5px; color: var(--muted); margin-top: 2px; line-height: 1.4; }
+.trib-esfera {
+  font-size: 11px; padding: 2px 7px; border-radius: 4px; white-space: nowrap;
+  background: var(--surface-2); color: var(--ink-2); border: 1px solid var(--hairline);
+}
+.trib-novo {
+  font-size: 10px; font-weight: 700; letter-spacing: .04em; margin-left: 6px;
+  padding: 2px 6px; border-radius: 4px; background: var(--warning); color: #3a2c00;
+}
+.trib-simbolico td { opacity: .62; }
+
+/* Comparativo entre os anos: barras na mesma escala. */
+.trib-comp { padding: 16px 18px 4px; }
+.trib-comp h3 { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin: 0 0 10px; }
+.trib-barra { display: grid; grid-template-columns: 58px 1fr auto; align-items: center; gap: 10px; margin-bottom: 7px; font-size: 13px; }
+.trib-barra .ano { font-weight: 600; font-variant-numeric: tabular-nums; }
+.trib-barra .trilho { background: var(--grid); border-radius: 5px; height: 20px; overflow: hidden; }
+/* `display:block` é obrigatório: o preenchimento é um <i>, que nasce inline, e
+   `height:100%` não vale para elemento inline — a barra saía vazia. */
+.trib-barra .preenche { display: block; height: 100%; border-radius: 5px; background: var(--s1); }
+.trib-barra.futuro .preenche { background: var(--s2); }
+.trib-barra .val { font-variant-numeric: tabular-nums; font-weight: 600; white-space: nowrap; }
+
+.trib-aviso {
+  margin: 16px 18px 4px; padding: 11px 14px; border-radius: 6px;
+  background: color-mix(in srgb, var(--warning) 13%, var(--surface));
+  border: 1px solid color-mix(in srgb, var(--warning) 42%, transparent);
+  font-size: 12px; color: var(--ink-2); line-height: 1.55;
+}
+
+@media (max-width: 640px) {
+  .trib-entrada { padding: 0 14px 12px; }
+  .trib-campo, .trib-campo--curto { flex: 1 1 100%; }
+  .trib-lista th, .trib-lista td { padding: 9px 14px; }
+  .trib-resumo, .trib-comp, .trib-nota, .trib-aviso { padding-left: 14px; padding-right: 14px; }
+  .trib-nota, .trib-aviso { margin-left: 14px; margin-right: 14px; }
+  /* Esconder só o rótulo não bastava: a CÉLULA continuava reservando largura e
+     a tabela seguia mais larga que a tela. A coluna inteira sai. */
+  .trib-lista th:nth-child(2), .trib-lista td:nth-child(2) { display: none; }
+  .trib-lista th:last-child, .trib-lista td:last-child { width: 110px; }
+  .trib-barra { grid-template-columns: 46px 1fr auto; gap: 8px; }
+  /* Os quatro anos ao lado do título espremem o texto em três linhas; embaixo
+     eles cabem numa fileira só e o título respira. */
+  #cardTributos .card-topo { flex-direction: column; align-items: stretch; gap: 10px; }
+  #anosTributo { align-self: flex-start; }
+}
+
 /* ---------- diálogos da camada ---------- */
 dialog.app-dlg { max-width: 560px; }
 dialog.app-dlg .dlg > p { margin-top: 0; }
@@ -661,6 +766,51 @@ dialog.app-dlg .dlg > p { margin-top: 0; }
         </div>
       </div>
       <div class="card-corpo rolagem tab-alta" id="corpoTabela"></div>
+    </section>
+  </div>
+
+  <div class="grade">
+    <section class="card" id="cardTributos">
+      <div class="card-topo">
+        <div>
+          <h2>Tributos sobre o faturamento</h2>
+          <p class="card-sub">O que sai da obra antes do lucro — e o que muda com a reforma</p>
+        </div>
+        <div class="alterna" id="anosTributo" role="group" aria-label="Ano de referência">
+          <button aria-pressed="true"  data-ano="2026">2026</button>
+          <button aria-pressed="false" data-ano="2027">2027</button>
+          <button aria-pressed="false" data-ano="2029">2029</button>
+          <button aria-pressed="false" data-ano="2033">2033</button>
+        </div>
+      </div>
+  
+      <div class="trib-entrada">
+        <div class="trib-campo">
+          <label for="inpFaturamento">Faturamento no período</label>
+          <input type="text" id="inpFaturamento" inputmode="numeric" placeholder="0" autocomplete="off">
+          <em id="dicaFaturamento">medições e contratos faturados — o painel não lê isso da planilha de custos</em>
+        </div>
+        <div class="trib-campo trib-campo--curto">
+          <label for="selIss">ISS do município</label>
+          <select id="selIss">
+            <option value="0.02">2%</option>
+            <option value="0.03">3%</option>
+            <option value="0.04">4%</option>
+            <option value="0.05" selected>5%</option>
+          </select>
+          <em>Vitória cobra 5%</em>
+        </div>
+        <div class="trib-campo trib-campo--curto">
+          <label for="selBase">Tipo de contrato</label>
+          <select id="selBase">
+            <option value="material" selected>Com material</option>
+            <option value="maodeobra">Só mão de obra</option>
+          </select>
+          <em>muda a base presumida</em>
+        </div>
+      </div>
+  
+      <div class="card-corpo" id="corpoTributos"></div>
     </section>
   </div>
 </main>
@@ -1701,6 +1851,7 @@ function render() {
   ajustarGrade();
   renderTabela(dados);
   renderAtivos();
+  if (typeof App !== 'undefined' && App.aoRenderizar) App.aoRenderizar();   // [app] tributos
 }
 
 // Quando um card da dupla some (recorte inexistente ou funil desligado), o que
@@ -2356,7 +2507,196 @@ const DADOS_DEMO = `Data,Obra,Etapa,Fornecedor,Tipo,Descrição,Valor,Orçado,St
 10/08/2026,Condomínio Reserva Verde,Acabamento,Gesso e Forro Vitória,Subempreiteiro,Empreitada de gesso e forro,"28620,00","24170,00",Pago`;
 
 /* ============================================================
-   11. CAMADA DE APLICATIVO (ferramentas/app/camada.js)
+   11. TRIBUTOS (ferramentas/app/tributos.js)
+   ============================================================ */
+/* ============================================================
+   TRIBUTOS SOBRE A OBRA
+   Módulo de cálculo puro: entra faturamento, sai a carga tributária do ano
+   pedido. Não toca no DOM — quem desenha é a camada de app e a calculadora.
+
+   A ARMADILHA CENTRAL, e a razão deste arquivo existir separado:
+   a reforma substitui apenas os tributos sobre CONSUMO (PIS, COFINS, ICMS,
+   ISS). IRPJ e CSLL continuam exatamente como são. Comparar "carga de hoje"
+   com "CBS + IBS" faz a conta futura parecer 4% contra 11% — e é mentira.
+   Por isso não existe função "carga da reforma": existe `cargaNoAno`, que
+   monta a lista inteira de tributos vigentes naquele ano.
+
+   AVISO QUE NÃO PODE SUMIR DA TELA: isto é estimativa educativa, não parecer
+   contábil. A alíquota de ISS muda por município, o enquadramento muda por
+   empresa, e a reforma ainda está em transição.
+   ============================================================ */
+const Tributos = (() => {
+
+  /* ------------------------------------------------------------------
+     REGIME DE HOJE — Lucro Presumido, o mais comum em construtora média
+     (o Simples tem teto de R$ 4,8 mi/ano, que algumas obras estouram fácil).
+     ------------------------------------------------------------------ */
+  const PRESUMIDO = {
+    // Base presumida sobre a receita. 8% vale para empreitada COM
+    // fornecimento de material; só mão de obra vai a 32%.
+    baseIRPJ: { comMaterial: 0.08, soMaoDeObra: 0.32 },
+    baseCSLL: { comMaterial: 0.12, soMaoDeObra: 0.32 },
+    aliqIRPJ: 0.15,
+    adicionalIRPJ: 0.10,
+    limiteAdicionalAno: 240000,   // R$ 60 mil por trimestre
+    aliqCSLL: 0.09,
+    aliqPIS: 0.0065,              // cumulativo, que é o do Presumido
+    aliqCOFINS: 0.03,
+  };
+
+  /* ------------------------------------------------------------------
+     REFORMA — LC 214/2025. Alíquotas de referência do IVA pleno (2033).
+     ------------------------------------------------------------------ */
+  const REFORMA = {
+    refCBS: 0.088,
+    refIBS: 0.177,
+    // Construção e alienação de imóvel entram no regime específico de bens
+    // imóveis, com redução de 50% da alíquota cheia.
+    reducaoImoveis: 0.50,
+  };
+
+  /* Quanto do ISS/ICMS antigo ainda vale, e quanto do IBS já vale, por ano.
+     2029 a 2032 é a rampa: o sistema antigo cai 10 pontos ao ano. */
+  function pesosDoAno(ano) {
+    if (ano <= 2026) return { antigo: 1, ibs: 0, cbsValendo: false, pisCofins: true, teste: true };
+    if (ano <= 2028) return { antigo: 1, ibs: 0, cbsValendo: true, pisCofins: false, ibsSimbolico: true };
+    if (ano >= 2033) return { antigo: 0, ibs: 1, cbsValendo: true, pisCofins: false };
+    // 2029→0,9 · 2030→0,8 · 2031→0,7 · 2032→0,6
+    const antigo = 1 - (ano - 2028) * 0.1;
+    return { antigo, ibs: 1 - antigo, cbsValendo: true, pisCofins: false };
+  }
+
+  const NOTA_ANO = {
+    2026: 'Ano-teste: CBS e IBS aparecem na nota fiscal em alíquota simbólica, mas não são recolhidos. Vale o sistema antigo inteiro.',
+    2027: 'A CBS entra valendo e PIS/COFINS são extintos. O IBS ainda é simbólico, e ISS e ICMS continuam como hoje.',
+    2028: 'Mesma regra de 2027.',
+    2029: 'Começa a transição: o IBS sobe 10 pontos ao ano e ISS e ICMS caem na mesma proporção.',
+    2030: 'Transição: o sistema antigo já vale 80%.',
+    2031: 'Transição: o sistema antigo já vale 70%.',
+    2032: 'Último ano de transição: o sistema antigo vale 60%.',
+    2033: 'Sistema pleno: ISS e ICMS extintos. Sobram IBS e CBS, mais IRPJ e CSLL, que a reforma não mudou.',
+  };
+
+  const num = n => (isFinite(n) && n > 0 ? n : 0);
+
+  /* ------------------------------------------------------------------
+     A carga completa de um ano.
+       receita          faturamento do período (medições, contrato faturado)
+       ano              2026 em diante
+       issAliquota      0,02 a 0,05 conforme o município
+       comMaterial      empreitada com material (base 8%) ou só mão de obra (32%)
+       mesesPeriodo     para ratear o limite anual do adicional de IRPJ
+       materialComprado base do crédito de IVA e do ICMS embutido na compra
+     ------------------------------------------------------------------ */
+  function cargaNoAno(opcoes) {
+    const receita = num(opcoes.receita);
+    const ano = opcoes.ano || new Date().getFullYear();
+    const iss = opcoes.issAliquota != null ? opcoes.issAliquota : 0.05;
+    const comMaterial = opcoes.comMaterial !== false;
+    const meses = opcoes.mesesPeriodo || 12;
+    const material = num(opcoes.materialComprado);
+    const p = pesosDoAno(ano);
+    const chave = comMaterial ? 'comMaterial' : 'soMaoDeObra';
+
+    const itens = [];
+
+    /* --- Sobre o lucro: a reforma NÃO mexe nestes dois. --- */
+    const baseIR = receita * PRESUMIDO.baseIRPJ[chave];
+    const limite = PRESUMIDO.limiteAdicionalAno * (meses / 12);
+    itens.push({
+      sigla: 'IRPJ', esfera: 'federal', grupo: 'lucro',
+      valor: baseIR * PRESUMIDO.aliqIRPJ + Math.max(0, baseIR - limite) * PRESUMIDO.adicionalIRPJ,
+      detalhe: 'base presumida de ' + Math.round(PRESUMIDO.baseIRPJ[chave] * 100) + '%, alíquota de 15% mais adicional de 10%',
+    });
+    itens.push({
+      sigla: 'CSLL', esfera: 'federal', grupo: 'lucro',
+      valor: receita * PRESUMIDO.baseCSLL[chave] * PRESUMIDO.aliqCSLL,
+      detalhe: 'base presumida de ' + Math.round(PRESUMIDO.baseCSLL[chave] * 100) + '%, alíquota de 9%',
+    });
+
+    /* --- Sobre o consumo: é aqui que a reforma age. --- */
+    if (p.pisCofins) {
+      itens.push({ sigla: 'PIS', esfera: 'federal', grupo: 'consumo',
+        valor: receita * PRESUMIDO.aliqPIS, detalhe: '0,65% sobre a receita (cumulativo)' });
+      itens.push({ sigla: 'COFINS', esfera: 'federal', grupo: 'consumo',
+        valor: receita * PRESUMIDO.aliqCOFINS, detalhe: '3% sobre a receita (cumulativo)' });
+    }
+
+    if (p.cbsValendo) {
+      const aliq = REFORMA.refCBS * (1 - REFORMA.reducaoImoveis);
+      itens.push({ sigla: 'CBS', esfera: 'federal', grupo: 'consumo', novo: true,
+        valor: receita * aliq,
+        detalhe: 'substitui PIS e COFINS · ' + pctTexto(aliq) + ' já com a redução de 50% de bens imóveis' });
+    } else if (p.teste) {
+      itens.push({ sigla: 'CBS', esfera: 'federal', grupo: 'consumo', novo: true, simbolico: true,
+        valor: 0, detalhe: 'alíquota-teste de 0,9% destacada na nota, sem recolhimento em 2026' });
+    }
+
+    if (p.antigo > 0) {
+      itens.push({ sigla: 'ISS', esfera: 'municipal', grupo: 'consumo',
+        valor: receita * iss * p.antigo,
+        detalhe: pctTexto(iss) + ' do município' + (p.antigo < 1 ? ', já reduzido a ' + Math.round(p.antigo * 100) + '% pela transição' : '') });
+    }
+
+    if (p.ibs > 0) {
+      const aliq = REFORMA.refIBS * (1 - REFORMA.reducaoImoveis) * p.ibs;
+      itens.push({ sigla: 'IBS', esfera: 'estadual e municipal', grupo: 'consumo', novo: true,
+        valor: receita * aliq,
+        detalhe: 'substitui ICMS e ISS · ' + pctTexto(aliq) + ' neste ano da transição' });
+    } else if (p.ibsSimbolico) {
+      itens.push({ sigla: 'IBS', esfera: 'estadual e municipal', grupo: 'consumo', novo: true, simbolico: true,
+        valor: receita * 0.001 * (1 - REFORMA.reducaoImoveis),
+        detalhe: 'ainda simbólico: 0,1% de referência, com a redução de bens imóveis' });
+    } else if (p.teste) {
+      itens.push({ sigla: 'IBS', esfera: 'estadual e municipal', grupo: 'consumo', novo: true, simbolico: true,
+        valor: 0, detalhe: 'alíquota-teste de 0,1% destacada na nota, sem recolhimento em 2026' });
+    }
+
+    const soma = f => itens.filter(f).reduce((s, i) => s + i.valor, 0);
+    const total = soma(() => true);
+
+    return {
+      ano, receita, itens,
+      federais: soma(i => i.esfera === 'federal'),
+      municipais: soma(i => i.esfera === 'municipal'),
+      compartilhados: soma(i => i.esfera === 'estadual e municipal'),
+      sobreLucro: soma(i => i.grupo === 'lucro'),
+      sobreConsumo: soma(i => i.grupo === 'consumo'),
+      total,
+      percentual: receita > 0 ? total / receita : 0,
+      nota: NOTA_ANO[ano] || NOTA_ANO[2033],
+      vigente: ano <= 2026,
+      /* O ICMS não é recolhido pela construtora — ela não é contribuinte de
+         ICMS, presta serviço sujeito a ISS. Mas o imposto veio dentro do preço
+         do material e some no orçamento sem nunca aparecer como tributo. */
+      icmsNoMaterial: material * 0.18,
+      material,
+      /* O IVA é não cumulativo: o que for pago de CBS/IBS na compra de
+         material volta como crédito. É a diferença estrutural que uma
+         comparação de alíquotas esconde. */
+      creditoIVA: p.cbsValendo ? material * (REFORMA.refCBS + REFORMA.refIBS * p.ibs) : 0,
+    };
+  }
+
+  function pctTexto(x) {
+    const v = x * 100;
+    return v.toFixed(v < 10 ? 2 : 1).replace('.', ',').replace(/,?0+$/, '').replace(/,$/, '') + '%';
+  }
+
+  const AVISO =
+    'Estimativa educativa sobre o faturamento informado, no regime de Lucro ' +
+    'Presumido e com a redução de 50% prevista para bens imóveis. A alíquota de ' +
+    'ISS muda de município para município, o enquadramento muda de empresa para ' +
+    'empresa, e a reforma segue em transição até 2033. Não substitui o cálculo ' +
+    'do seu contador.';
+
+  const ANOS = [2026, 2027, 2029, 2033];
+
+  return { cargaNoAno, pctTexto, AVISO, ANOS, PRESUMIDO, REFORMA };
+})();
+
+/* ============================================================
+   12. CAMADA DE APLICATIVO (ferramentas/app/camada.js)
    ============================================================ */
 /* ============================================================
    CAMADA DE APLICATIVO
@@ -2685,6 +3025,171 @@ const App = (() => {
     if (selo && !MODO_DEMO) selo.hidden = !(e && e.demo);
   }
 
+  /* ============================================================
+     TRIBUTOS
+     O painel lê custo; imposto incide sobre RECEITA, que não está na
+     planilha de custos. O faturamento é digitado uma vez e guardado junto
+     com a empresa — assim nenhuma planilha que já funciona precisa mudar
+     de formato para o módulo existir.
+     ============================================================ */
+
+  const anoTributo = { atual: 2026 };
+
+  function dadosTributarios() {
+    const e = ativa();
+    return (e && e.tributos) || { faturamento: 0, iss: 0.05, base: 'material' };
+  }
+
+  function salvarTributos(dados) {
+    const e = ativa();
+    if (!e) return;
+    e.tributos = Object.assign({}, dadosTributarios(), dados);
+    gravarLista();
+  }
+
+  /* "1.250.000" → 1250000. Obra não se controla em centavos, e vírgula no
+     celular gera erro de digitação: só os dígitos contam. */
+  const soDigitos = t => +String(t).replace(/\D/g, '') || 0;
+  const comPontos = n => (n ? n.toLocaleString('pt-BR', { maximumFractionDigits: 0 }) : '');
+
+  /* Quanto de material foi comprado no período filtrado — base do crédito de
+     IVA e do ICMS que veio embutido na compra. Sai da própria planilha: o motor
+     guarda os recortes em d0..d2 e as colunas extras em x0..x2, e é numa dessas
+     que costuma viver a classificação "Material". */
+  function materialDoPeriodo() {
+    const linhas = (typeof filtrar === 'function' ? filtrar() : estado.linhas) || [];
+    const ehMaterial = v => /materi|insum/i.test(String(v || ''));
+    let total = 0;
+    for (const l of linhas) {
+      const marcadores = [l.x0, l.x1, l.x2, l.d0, l.d1, l.d2, l.registro];
+      if (marcadores.some(ehMaterial)) total += l.valor || 0;
+    }
+    return total;
+  }
+
+  function renderTributos() {
+    const host = document.getElementById('corpoTributos');
+    if (!host || typeof Tributos === 'undefined') return;
+
+    const d = dadosTributarios();
+    const material = materialDoPeriodo();
+    const meses = estado.meses || 12;
+
+    const opcoes = ano => ({
+      receita: d.faturamento, ano, issAliquota: d.iss,
+      comMaterial: d.base !== 'maodeobra',
+      mesesPeriodo: meses, materialComprado: material,
+    });
+
+    if (!d.faturamento) {
+      host.innerHTML =
+        `<p class="trib-nota">Informe o faturamento do período acima para ver a carga tributária.
+         O painel lê a planilha de <b>custos</b>; o quanto a obra faturou (medições, contratos
+         faturados) não está nela, então entra aqui.</p>
+         <p class="trib-aviso">${Tributos.AVISO}</p>`;
+      return;
+    }
+
+    const c = Tributos.cargaNoAno(opcoes(anoTributo.atual));
+    const todos = Tributos.ANOS.map(a => Tributos.cargaNoAno(opcoes(a)));
+    const maior = Math.max.apply(null, todos.map(x => x.total)) || 1;
+
+    const linhas = c.itens.map(i => `
+      <tr class="${i.simbolico ? 'trib-simbolico' : ''}">
+        <td>
+          <span class="trib-sigla">${i.sigla}</span>${i.novo ? '<span class="trib-novo">NOVO</span>' : ''}
+          <span class="trib-det">${i.detalhe}</span>
+        </td>
+        <td><span class="trib-esfera">${i.esfera}</span></td>
+        <td class="n">${i.simbolico && !i.valor ? '—' : brl(i.valor)}</td>
+      </tr>`).join('');
+
+    const comparativo = todos.map(x => `
+      <div class="trib-barra ${x.ano > 2026 ? 'futuro' : ''}">
+        <span class="ano">${x.ano}${x.ano === 2026 ? '' : ''}</span>
+        <span class="trilho"><i class="preenche" style="width:${Math.max(2, x.total / maior * 100)}%"></i></span>
+        <span class="val">${brlCurto(x.total)} · ${(x.percentual * 100).toFixed(1).replace('.', ',')}%</span>
+      </div>`).join('');
+
+    const credito = c.creditoIVA > 0 ? `
+      <p class="trib-nota trib-nota--futuro">
+        <b>O material comprado vira crédito.</b> O IBS e a CBS são não cumulativos: o que o
+        fornecedor destacar na compra volta como abatimento, o que hoje não acontece com ISS,
+        PIS e COFINS. Com ${brlCurto(material)} de material no período filtrado, o crédito
+        estimado seria de ${brlCurto(c.creditoIVA)}. A carga líquida real depende de quanto
+        dos seus fornecedores destaca o tributo — é conta para o contador fazer com as notas
+        na mão, não para este painel afirmar.
+      </p>` : '';
+
+    const icms = c.icmsNoMaterial > 0 ? `
+      <p class="trib-nota">
+        <b>Tributo estadual.</b> A construtora não recolhe ICMS: presta serviço, e serviço é ISS.
+        Mas o ICMS veio dentro do preço do material — algo perto de ${brlCurto(c.icmsNoMaterial)}
+        nos ${brlCurto(material)} comprados no período. Não aparece como imposto no seu caixa,
+        aparece como preço.
+      </p>` : '';
+
+    host.innerHTML = `
+      <div class="trib-resumo">
+        <span class="trib-total">${brl(c.total)}</span>
+        <span class="trib-pct">${(c.percentual * 100).toFixed(2).replace('.', ',')}% do faturamento</span>
+        <span class="trib-rot">${c.vigente ? 'regra vigente' : 'projeção para ' + c.ano + ', ainda não vale'}</span>
+      </div>
+
+      <p class="trib-nota ${c.vigente ? '' : 'trib-nota--futuro'}"><b>${c.ano}.</b> ${c.nota}</p>
+
+      <table class="trib-lista">
+        <thead><tr><th>Tributo</th><th>Esfera</th><th class="n">No período</th></tr></thead>
+        <tbody>${linhas}</tbody>
+      </table>
+
+      <div class="trib-comp">
+        <h3>Como a carga caminha até 2033</h3>
+        ${comparativo}
+      </div>
+
+      ${credito}
+      ${icms}
+
+      <p class="trib-aviso">${Tributos.AVISO}</p>`;
+  }
+
+  function ligarTributos() {
+    const inp = document.getElementById('inpFaturamento');
+    const iss = document.getElementById('selIss');
+    const base = document.getElementById('selBase');
+    const anos = document.getElementById('anosTributo');
+    if (!inp) return;
+
+    inp.addEventListener('input', () => {
+      const n = soDigitos(inp.value);
+      inp.value = comPontos(n);
+      salvarTributos({ faturamento: n });
+      renderTributos();
+    });
+    if (iss) iss.addEventListener('change', () => { salvarTributos({ iss: +iss.value }); renderTributos(); });
+    if (base) base.addEventListener('change', () => { salvarTributos({ base: base.value }); renderTributos(); });
+    if (anos) anos.addEventListener('click', ev => {
+      const b = ev.target.closest('button');
+      if (!b) return;
+      anoTributo.atual = +b.dataset.ano;
+      [].forEach.call(anos.children, x => x.setAttribute('aria-pressed', String(x === b)));
+      renderTributos();
+    });
+  }
+
+  /* Reflete na tela o que está guardado para a empresa ativa. */
+  function sincronizarTributos() {
+    const d = dadosTributarios();
+    const inp = document.getElementById('inpFaturamento');
+    const iss = document.getElementById('selIss');
+    const base = document.getElementById('selBase');
+    if (inp) inp.value = comPontos(d.faturamento);
+    if (iss) iss.value = String(d.iss);
+    if (base) base.value = d.base;
+    renderTributos();
+  }
+
   /* ---------- ganchos que o motor chama ---------- */
 
   const csvEmpresa = () => { const e = ativa(); return e ? e.csv : ''; };
@@ -2818,6 +3323,11 @@ const App = (() => {
         arquivo: 'construtora-atlantica.csv',
         em: new Date().toISOString(),
         demo: true, url: '',
+        /* Faturamento das quatro obras no período. Contra R$ 7,94 mi de custo
+           realizado, sobra uma margem bruta de ~17% — e a conta de tributos
+           mostra quanto dela não é da construtora. É a história que a
+           demonstração precisa contar. */
+        tributos: { faturamento: 9600000, iss: 0.05, base: 'material' },
       };
       empresas.push(e);
       gravarLista();
@@ -2868,6 +3378,8 @@ const App = (() => {
       if (el) el.addEventListener('click', fn);
     };
 
+    ligarTributos();
+
     ligar('opCarregar', pedirArquivo);
     ligar('btnCarregar', pedirArquivo);
     ligar('opDemo', abrirDemo);
@@ -2892,6 +3404,9 @@ const App = (() => {
     iniciar, receberArquivo, aplicar,
     csvEmpresa, urlEmpresa, salvarUrlEmpresa, rotuloFonte,
     ajustarColunas, mostrarAbertura,
+    /* O motor chama no fim de todo render: o material do período muda com o
+       filtro, e a conta de crédito de IVA depende dele. */
+    aoRenderizar: sincronizarTributos,
   };
 })();
 
