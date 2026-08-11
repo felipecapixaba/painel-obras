@@ -471,12 +471,20 @@ dialog::backdrop { background: rgba(6,10,18,.55); }
 .resumo-arquivo b { font-weight: 600; }
 .resumo-arquivo span { color: var(--muted); }
 
-/* ---------- selo de dados fictícios ---------- */
-.selo-demo {
+/* ---------- selo de dados fictícios ----------
+   Nome próprio de propósito: o motor JÁ tem uma `.selo-demo`, com fundo
+   translúcido e regra `:root[data-theme="dark"] .selo-demo { color: var(--warning) }`.
+   Aquela cor de texto faz sentido sobre fundo translúcido; sobre o amarelo
+   SÓLIDO daqui, dava texto amarelo sobre amarelo — o selo aparecia vazio no
+   tema escuro. Reusar o nome misturava as duas.
+   O texto fica escuro nos dois temas: sobre #fab219 isso dá contraste 7,5:1,
+   enquanto texto branco daria 1,8:1 — ilegível. */
+.selo-ficticio {
   background: var(--warning); color: #3a2c00;
   font-size: 11px; font-weight: 600; letter-spacing: .03em;
   padding: 3px 8px; border-radius: 4px; white-space: nowrap;
 }
+:root[data-theme="dark"] .selo-ficticio { color: #3a2c00; }
 
 /* ---------- diálogos da camada ---------- */
 dialog.app-dlg { max-width: 560px; }
@@ -513,7 +521,7 @@ dialog.app-dlg .dlg > p { margin-top: 0; }
     </div>
   </div>
   <div class="topo-acoes">
-    <span class="selo-demo" id="seloDemo">dados fictícios</span>
+    <span class="selo-ficticio" id="seloDemo">dados fictícios</span>
     <span class="conexao"><span class="ponto" id="pontoConexao"></span><span id="txtConexao">demonstração</span></span>
     <button class="btn" id="btnTema" title="Alternar tema">Tema</button>
     <button class="btn btn-cta" id="btnFalar">Quero com os dados da minha obra</button>
