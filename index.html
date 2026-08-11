@@ -2343,9 +2343,6 @@ const DADOS_DEMO = `Data,Obra,Etapa,Fornecedor,Tipo,Descrição,Valor,Orçado,St
    ============================================================ */
 const App = (() => {
 
-  const CHAVE_LISTA = 'painelObra:empresas';
-  const CHAVE_ATUAL = 'painelObra:atual';
-
   /* Build de DEMONSTRAÇÃO: abre direto na construtora fictícia e não deixa
      carregar planilha nenhuma. É a versão que vai para o público e para a
      calculadora — mostra o produto funcionando sem entregá-lo.
@@ -2353,6 +2350,15 @@ const App = (() => {
      Sendo trava de navegador, ela não é segredo: quem ler o código-fonte acha o
      caminho. Serve para o funil, não como proteção. */
   const MODO_DEMO = true;    // [build] versão pública de demonstração
+
+  /* Demonstração e ferramenta moram na MESMA origem (felipecapixaba.github.io),
+     e localStorage é por origem — o caminho não separa nada. Com a mesma chave,
+     abrir a demonstração trocaria a empresa ativa da ferramenta, e as planilhas
+     de cliente ficariam no mesmo armazenamento que a página pública lê. Cada
+     build tem o seu. */
+  const PREFIXO = MODO_DEMO ? 'painelObraDemo' : 'painelObra';
+  const CHAVE_LISTA = PREFIXO + ':empresas';
+  const CHAVE_ATUAL = PREFIXO + ':atual';
 
   /* Para onde vai quem se interessa na demonstração. */
   const WHATS = '5527992492070';

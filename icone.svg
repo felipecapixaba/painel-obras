@@ -1,7 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Capixaba Shop">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Capixaba Shop — demonstração">
   <rect width="512" height="512" rx="96" fill="#0a2a4a"/>
-  <rect x="128" y="128" width="256" height="256" rx="44" fill="#e23b45"/>
-  <text x="256" y="256" fill="#ffffff" font-family="Inter, Segoe UI, system-ui, sans-serif"
-        font-size="118" font-weight="700" text-anchor="middle" dominant-baseline="central"
+  <rect x="128" y="112" width="256" height="216" rx="40" fill="#5f6b7a"/>
+  <text x="256" y="220" fill="#ffffff" font-family="Inter, Segoe UI, system-ui, sans-serif"
+        font-size="104" font-weight="700" text-anchor="middle" dominant-baseline="central"
         letter-spacing="2">CS</text>
+  <rect x="128" y="356" width="256" height="66" rx="16" fill="#fab219"/>
+  <text x="256" y="391" fill="#3a2c00" font-family="Inter, Segoe UI, system-ui, sans-serif"
+        font-size="42" font-weight="700" text-anchor="middle" dominant-baseline="central"
+        letter-spacing="6">DEMO</text>
 </svg>
