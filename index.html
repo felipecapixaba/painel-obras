@@ -3,11 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Painel de Obras — Capixaba Shop</title>
-<meta name="description" content="Painel de custo de obra alimentado por planilha. Os dados ficam no seu aparelho.">
+<title>Painel de Obras — demonstração | Capixaba Shop</title>
+<meta name="description" content="Demonstração do painel de custo de obra: quatro obras fictícias, custo realizado contra orçado, obra por obra.">
+<meta name="robots" content="index, follow">
 <meta name="theme-color" content="#0a2a4a">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Painel de Obras">
+<meta name="apple-mobile-web-app-title" content="Painel de Obras — demonstração">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icone.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icone-192.png">
@@ -512,13 +513,10 @@ dialog.app-dlg .dlg > p { margin-top: 0; }
     </div>
   </div>
   <div class="topo-acoes">
-    <span class="selo-demo" id="seloDemo" hidden>dados fictícios</span>
-    <span class="conexao"><span class="ponto" id="pontoConexao"></span><span id="txtConexao">carregando…</span></span>
-    <button class="btn btn-empresa" id="btnEmpresas" title="Trocar de empresa">
-      <b id="rotEmpresa">Empresa</b><span class="seta">▼</span>
-    </button>
+    <span class="selo-demo" id="seloDemo">dados fictícios</span>
+    <span class="conexao"><span class="ponto" id="pontoConexao"></span><span id="txtConexao">demonstração</span></span>
     <button class="btn" id="btnTema" title="Alternar tema">Tema</button>
-    <button class="btn btn-cta" id="btnCarregar">Carregar planilha</button>
+    <button class="btn btn-cta" id="btnFalar">Quero com os dados da minha obra</button>
     <button class="btn" id="btnAtualizar" hidden>Atualizar</button>
     <button class="btn" id="btnConectar" hidden>Conectar planilha</button>
   </div>
@@ -2348,6 +2346,20 @@ const App = (() => {
   const CHAVE_LISTA = 'painelObra:empresas';
   const CHAVE_ATUAL = 'painelObra:atual';
 
+  /* Build de DEMONSTRAÇÃO: abre direto na construtora fictícia e não deixa
+     carregar planilha nenhuma. É a versão que vai para o público e para a
+     calculadora — mostra o produto funcionando sem entregá-lo.
+     O gerador troca esta linha para `true` quando roda com --demo.
+     Sendo trava de navegador, ela não é segredo: quem ler o código-fonte acha o
+     caminho. Serve para o funil, não como proteção. */
+  const MODO_DEMO = true;    // [build] versão pública de demonstração
+
+  /* Para onde vai quem se interessa na demonstração. */
+  const WHATS = '5527992492070';
+  const CONVITE =
+    'Olá! Vi a demonstração do painel de obras e quero ver com os números da minha construtora.';
+  const linkWhats = () => 'https://wa.me/' + WHATS + '?text=' + encodeURIComponent(CONVITE);
+
   /* Sentinela para "esta coluna não existe". Necessário porque o motor cai nos
      sinônimos quando o nome vem vazio — e o sinônimo de `status` inclui "etapa",
      o que faria a fase da obra ser lida como situação de pagamento. */
@@ -2441,6 +2453,8 @@ const App = (() => {
 
   function receberArquivo(arq) {
     if (!arq) return;
+    // Na demonstração, arrastar uma planilha não importa nada: vira o convite.
+    if (MODO_DEMO) return convidar();
     if (!/\.(csv|txt)$/i.test(arq.name)) {
       abrirAviso(`<b>“${arq.name}” não é um CSV.</b>
         No Excel: <b>Arquivo → Salvar como → CSV UTF-8</b>. O painel não lê .xlsx, .pdf nem .docx.`);
@@ -2631,8 +2645,13 @@ const App = (() => {
 
   function atualizarCabecalho() {
     const e = ativa();
-    document.getElementById('rotEmpresa').textContent = e ? e.nome : 'Empresa';
-    document.getElementById('seloDemo').hidden = !(e && e.demo);
+    // No build de demonstração não existe seletor de empresa, e o selo de dados
+    // fictícios é fixo no HTML. Sem estas guardas, aplicar() estoura aqui e o
+    // painel nunca chega a ser desenhado.
+    const rot = document.getElementById('rotEmpresa');
+    if (rot) rot.textContent = e ? e.nome : 'Empresa';
+    const selo = document.getElementById('seloDemo');
+    if (selo && !MODO_DEMO) selo.hidden = !(e && e.demo);
   }
 
   /* ---------- ganchos que o motor chama ---------- */
@@ -2785,6 +2804,11 @@ const App = (() => {
 
   /* ---------- partida ---------- */
 
+  /* Abre o WhatsApp da Capixaba Shop. É a única saída da demonstração. */
+  function convidar() {
+    window.open(linkWhats(), '_blank', 'noopener');
+  }
+
   function iniciar() {
     carregarLista();
 
@@ -2794,6 +2818,9 @@ const App = (() => {
 
     ligarEventos();
 
+    // A demonstração não tem tela de abertura nem escolha: entra pronta.
+    if (MODO_DEMO) { fecharAbertura(); abrirDemo(); return; }
+
     if (ativa()) { fecharAbertura(); aplicar(); }
     else { mostrarConexao('demo', 'nenhuma planilha carregada'); mostrarAbertura(); }
   }
@@ -2802,23 +2829,32 @@ const App = (() => {
     const inp = document.getElementById('inpArquivo');
     const pedirArquivo = () => { inp.value = ''; inp.click(); };
 
-    inp.addEventListener('change', () => receberArquivo(inp.files[0]));
+    if (inp) inp.addEventListener('change', () => receberArquivo(inp.files[0]));
 
-    document.getElementById('opCarregar').addEventListener('click', pedirArquivo);
-    document.getElementById('btnCarregar').addEventListener('click', pedirArquivo);
-    document.getElementById('opDemo').addEventListener('click', abrirDemo);
-    document.getElementById('opModelo').addEventListener('click', baixarModelo);
+    // No build de demonstração vários destes botões não existem no HTML.
+    const ligar = (id, fn) => {
+      const el = document.getElementById(id);
+      if (el) el.addEventListener('click', fn);
+    };
 
-    document.getElementById('btnEmpresas').addEventListener('click', () => {
+    ligar('opCarregar', pedirArquivo);
+    ligar('btnCarregar', pedirArquivo);
+    ligar('opDemo', abrirDemo);
+    ligar('opModelo', baixarModelo);
+    ligar('btnFalar', convidar);
+
+    ligar('btnEmpresas', () => {
       desenharListaDialogo();
       dlgEmpresas.showModal();
     });
-    dlgEmpresas.addEventListener('close', () => {
+    if (dlgEmpresas) dlgEmpresas.addEventListener('close', () => {
       if (dlgEmpresas.returnValue === 'nova') pedirArquivo();
     });
 
-    document.getElementById('empresasCorpo').addEventListener('click', tratarCliqueLista);
-    document.getElementById('dlgEmpresasCorpo').addEventListener('click', tratarCliqueLista);
+    const corpo = document.getElementById('empresasCorpo');
+    if (corpo) corpo.addEventListener('click', tratarCliqueLista);
+    const corpoDlg = document.getElementById('dlgEmpresasCorpo');
+    if (corpoDlg) corpoDlg.addEventListener('click', tratarCliqueLista);
   }
 
   return {

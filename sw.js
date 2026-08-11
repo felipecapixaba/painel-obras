@@ -2,7 +2,7 @@
    Rede primeiro, cache como rede de segurança: o painel se atualiza sozinho quando
    há internet e continua abrindo quando não há. Os dados das empresas não passam
    por aqui — vivem no localStorage do navegador. */
-const CACHE = 'painel-obras-20260811';
+const CACHE = 'painel-obras-demo-20260811';
 const ESSENCIAIS = ['./', 'index.html', 'manifest.webmanifest', 'icone.svg', 'icone-192.png', 'icone-512.png'];
 
 self.addEventListener('install', ev => {

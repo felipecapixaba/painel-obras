@@ -1,7 +1,7 @@
 {
-  "name": "Painel de Obras — Capixaba Shop",
-  "short_name": "Painel de Obras",
-  "description": "Custo realizado contra orçado, obra por obra, a partir da sua planilha.",
+  "name": "Painel de Obras — demonstração — Capixaba Shop",
+  "short_name": "Painel (demo)",
+  "description": "Demonstração do painel de custo de obra, com uma construtora fictícia.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
